@@ -1,4 +1,4 @@
-**Note: There are some commits in branch: Release2. Haven't merge those into master branch due to that feature is not completed.**
+**Note:** There are some commits in branch: Release2. Haven't merge those into master branch due to that feature is not completed.
 
 ***Online Shopping***
 
