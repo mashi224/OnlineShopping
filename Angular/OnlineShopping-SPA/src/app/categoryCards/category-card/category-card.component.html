@@ -1,0 +1,10 @@
+<div class="card m-1">
+<div class="card" style="width: 18rem; height: 20rem;">
+  <!-- <img src="../../../assets/images/" class="card-img-top" alt="CategoryImage"> -->
+  <div class="card-body">
+    <h5 class="card-title"> {{category.categoryName}} </h5>
+    <p class="card-text">{{category.categoryDesc}}</p>
+    <button (click)="loadProducts(this.category.id)" class="btn btn-primary" [routerLink]="['/product/', category.id]">Go to products>></button>
+  </div>
+</div>
+</div>
