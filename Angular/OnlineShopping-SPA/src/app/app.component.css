@@ -1,0 +1,11 @@
+body {
+    background: url('https://cdn.shopify.com/s/files/1/1299/7345/products/abstract-hand-painted-black-and-white-background-acrylic-painting-on-canvas-wallpaper-texture-no-2565-1-panel-canvas-print-wall-art-zellart-3.jpg?v=1552024255') no-repeat bottom fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    }
+/* 
+  background-position:center;  
+display:inline-block; width:90px;border-bottom-right-radius: 20px;
+   */
