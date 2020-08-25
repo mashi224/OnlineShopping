@@ -1,0 +1,272 @@
+2020-08-16 00:01:54.089 +05:30 [INF] HTTP OPTIONS /api/auth/register responded 204 in 8.2920 ms
+2020-08-16 00:01:54.894 +05:30 [INF] HTTP POST /api/auth/register responded 201 in 677.0182 ms
+2020-08-16 00:02:07.317 +05:30 [INF] HTTP OPTIONS /api/auth/login responded 204 in 0.1430 ms
+2020-08-16 00:02:07.347 +05:30 [INF] HTTP POST /api/auth/login responded 200 in 26.4549 ms
+2020-08-16 00:02:12.799 +05:30 [INF] HTTP OPTIONS /api/product/3 responded 204 in 0.0713 ms
+2020-08-16 00:02:12.901 +05:30 [INF] HTTP GET /api/product/3 responded 200 in 84.7406 ms
+2020-08-16 00:02:17.833 +05:30 [INF] HTTP OPTIONS /api/category responded 204 in 0.0840 ms
+2020-08-16 00:02:17.862 +05:30 [INF] Get categories completed.
+2020-08-16 00:02:17.862 +05:30 [INF] HTTP GET /api/category responded 200 in 4.8323 ms
+2020-08-16 00:02:19.845 +05:30 [INF] HTTP OPTIONS /api/product/4 responded 204 in 0.1172 ms
+2020-08-16 00:02:19.860 +05:30 [INF] HTTP GET /api/product/4 responded 200 in 8.7716 ms
+2020-08-16 00:02:21.227 +05:30 [INF] Get categories completed.
+2020-08-16 00:02:21.227 +05:30 [INF] HTTP GET /api/category responded 200 in 6.4478 ms
+2020-08-16 00:02:26.618 +05:30 [INF] HTTP OPTIONS /api/category responded 204 in 0.1902 ms
+2020-08-16 00:02:26.636 +05:30 [INF] Get categories completed.
+2020-08-16 00:02:26.636 +05:30 [INF] HTTP GET /api/category responded 200 in 4.8619 ms
+2020-08-16 00:02:28.069 +05:30 [INF] Get categories completed.
+2020-08-16 00:02:28.070 +05:30 [INF] HTTP GET /api/category responded 200 in 6.6229 ms
+2020-08-16 00:02:32.245 +05:30 [INF] HTTP OPTIONS /api/category responded 204 in 0.1023 ms
+2020-08-16 00:02:32.257 +05:30 [INF] Get categories completed.
+2020-08-16 00:02:32.257 +05:30 [INF] HTTP GET /api/category responded 200 in 4.6544 ms
+2020-08-16 00:02:35.027 +05:30 [INF] HTTP OPTIONS /api/product/1 responded 204 in 0.0824 ms
+2020-08-16 00:02:35.036 +05:30 [INF] HTTP GET /api/product/1 responded 200 in 4.3471 ms
+2020-08-16 00:02:48.738 +05:30 [INF] Get categories completed.
+2020-08-16 00:02:48.739 +05:30 [INF] HTTP GET /api/category responded 200 in 4.1004 ms
+2020-08-16 00:04:10.744 +05:30 [INF] Get categories completed.
+2020-08-16 00:04:10.744 +05:30 [INF] HTTP GET /api/category responded 200 in 2.4966 ms
+2020-08-16 00:06:54.223 +05:30 [INF] Get categories completed.
+2020-08-16 00:06:54.224 +05:30 [INF] HTTP GET /api/category responded 200 in 8.1803 ms
+2020-08-16 00:07:12.311 +05:30 [INF] Get categories completed.
+2020-08-16 00:07:12.312 +05:30 [INF] HTTP GET /api/category responded 200 in 3.5576 ms
+2020-08-16 00:07:14.389 +05:30 [INF] HTTP GET /api/product/1 responded 200 in 4.3302 ms
+2020-08-16 00:07:18.746 +05:30 [INF] Get categories completed.
+2020-08-16 00:07:18.746 +05:30 [INF] HTTP GET /api/category responded 200 in 5.0782 ms
+2020-08-16 00:08:47.144 +05:30 [INF] HTTP OPTIONS /api/auth/register responded 204 in 0.7064 ms
+2020-08-16 00:08:47.179 +05:30 [INF] HTTP POST /api/auth/register responded 400 in 32.8659 ms
+2020-08-16 00:08:53.727 +05:30 [INF] HTTP GET /api/product/1 responded 200 in 3.7900 ms
+2020-08-16 00:08:55.041 +05:30 [INF] Get categories completed.
+2020-08-16 00:08:55.041 +05:30 [INF] HTTP GET /api/category responded 200 in 5.2684 ms
+2020-08-16 00:08:56.189 +05:30 [INF] HTTP GET /api/product/3 responded 200 in 4.6520 ms
+2020-08-16 00:08:57.361 +05:30 [INF] Get categories completed.
+2020-08-16 00:08:57.361 +05:30 [INF] HTTP GET /api/category responded 200 in 3.2428 ms
+2020-08-16 00:08:58.392 +05:30 [INF] HTTP GET /api/product/4 responded 200 in 6.3410 ms
+2020-08-16 00:08:59.647 +05:30 [INF] Get categories completed.
+2020-08-16 00:08:59.647 +05:30 [INF] HTTP GET /api/category responded 200 in 3.9675 ms
+2020-08-16 00:09:03.635 +05:30 [INF] HTTP GET /api/product/1 responded 200 in 5.2550 ms
+2020-08-16 00:10:20.589 +05:30 [INF] Get categories completed.
+2020-08-16 00:10:20.589 +05:30 [INF] HTTP GET /api/category responded 200 in 3.9400 ms
+2020-08-16 00:10:22.329 +05:30 [INF] HTTP GET /api/product/3 responded 200 in 5.5587 ms
+2020-08-16 00:10:23.965 +05:30 [INF] Get categories completed.
+2020-08-16 00:10:23.965 +05:30 [INF] HTTP GET /api/category responded 200 in 9.3608 ms
+2020-08-16 00:10:42.110 +05:30 [INF] HTTP GET /api/product/1 responded 200 in 6.6438 ms
+2020-08-16 00:10:46.135 +05:30 [INF] Get categories completed.
+2020-08-16 00:10:46.136 +05:30 [INF] HTTP GET /api/category responded 200 in 5.0647 ms
+2020-08-16 00:10:47.487 +05:30 [INF] HTTP GET /api/product/4 responded 200 in 5.1509 ms
+2020-08-16 00:10:59.609 +05:30 [INF] Get categories completed.
+2020-08-16 00:10:59.609 +05:30 [INF] HTTP GET /api/category responded 200 in 3.2485 ms
+2020-08-16 00:11:14.828 +05:30 [INF] Get categories completed.
+2020-08-16 00:11:14.829 +05:30 [INF] HTTP GET /api/category responded 200 in 4.3227 ms
+2020-08-16 00:11:18.869 +05:30 [INF] Get categories completed.
+2020-08-16 00:11:18.869 +05:30 [INF] HTTP GET /api/category responded 200 in 3.4617 ms
+2020-08-16 00:11:21.074 +05:30 [INF] HTTP GET /api/product/3 responded 200 in 4.6338 ms
+2020-08-16 00:11:45.849 +05:30 [INF] Get categories completed.
+2020-08-16 00:11:45.849 +05:30 [INF] HTTP GET /api/category responded 200 in 2.2672 ms
+2020-08-16 00:11:47.264 +05:30 [INF] Get categories completed.
+2020-08-16 00:11:47.264 +05:30 [INF] HTTP GET /api/category responded 200 in 4.9140 ms
+2020-08-16 00:11:54.531 +05:30 [INF] Get categories completed.
+2020-08-16 00:11:54.531 +05:30 [INF] HTTP GET /api/category responded 200 in 5.0257 ms
+2020-08-16 00:11:56.405 +05:30 [INF] Get categories completed.
+2020-08-16 00:11:56.406 +05:30 [INF] HTTP GET /api/category responded 200 in 5.0478 ms
+2020-08-16 00:11:58.224 +05:30 [INF] Get categories completed.
+2020-08-16 00:11:58.224 +05:30 [INF] HTTP GET /api/category responded 200 in 4.1251 ms
+2020-08-16 00:11:59.284 +05:30 [INF] Get categories completed.
+2020-08-16 00:11:59.284 +05:30 [INF] HTTP GET /api/category responded 200 in 3.5439 ms
+2020-08-16 00:12:20.952 +05:30 [INF] HTTP GET /api/product/3 responded 200 in 4.6498 ms
+2020-08-16 00:12:34.176 +05:30 [INF] Get categories completed.
+2020-08-16 00:12:34.176 +05:30 [INF] HTTP GET /api/category responded 200 in 2.2962 ms
+2020-08-16 00:12:35.999 +05:30 [INF] Get categories completed.
+2020-08-16 00:12:35.999 +05:30 [INF] HTTP GET /api/category responded 200 in 2.5510 ms
+2020-08-16 00:12:37.034 +05:30 [INF] Get categories completed.
+2020-08-16 00:12:37.035 +05:30 [INF] HTTP GET /api/category responded 200 in 2.0061 ms
+2020-08-16 00:12:40.282 +05:30 [INF] Get categories completed.
+2020-08-16 00:12:40.283 +05:30 [INF] HTTP GET /api/category responded 200 in 4.9620 ms
+2020-08-16 00:13:19.902 +05:30 [INF] Get categories completed.
+2020-08-16 00:13:19.902 +05:30 [INF] HTTP GET /api/category responded 200 in 3.0998 ms
+2020-08-16 00:13:32.283 +05:30 [INF] Get categories completed.
+2020-08-16 00:13:32.284 +05:30 [INF] HTTP GET /api/category responded 200 in 5.6704 ms
+2020-08-16 00:13:49.607 +05:30 [INF] Get categories completed.
+2020-08-16 00:13:49.608 +05:30 [INF] HTTP GET /api/category responded 200 in 3.5450 ms
+2020-08-16 00:14:53.227 +05:30 [INF] Get categories completed.
+2020-08-16 00:14:53.227 +05:30 [INF] HTTP GET /api/category responded 200 in 7.6965 ms
+2020-08-16 00:15:50.578 +05:30 [INF] Get categories completed.
+2020-08-16 00:15:50.582 +05:30 [INF] HTTP GET /api/category responded 200 in 67.1241 ms
+2020-08-16 00:15:58.743 +05:30 [INF] Get categories completed.
+2020-08-16 00:15:58.743 +05:30 [INF] HTTP GET /api/category responded 200 in 10.6734 ms
+2020-08-16 00:16:06.601 +05:30 [INF] Get categories completed.
+2020-08-16 00:16:06.604 +05:30 [INF] HTTP GET /api/category responded 200 in 20.6607 ms
+2020-08-16 00:16:52.636 +05:30 [INF] Get categories completed.
+2020-08-16 00:16:52.636 +05:30 [INF] HTTP GET /api/category responded 200 in 7.1220 ms
+2020-08-16 00:16:56.839 +05:30 [INF] HTTP GET /api/product/1 responded 200 in 65.9206 ms
+2020-08-16 00:16:58.919 +05:30 [INF] Get categories completed.
+2020-08-16 00:16:58.925 +05:30 [INF] HTTP GET /api/category responded 200 in 36.6402 ms
+2020-08-16 00:17:15.465 +05:30 [INF] HTTP OPTIONS /api/auth/register responded 204 in 1.9936 ms
+2020-08-16 00:17:15.650 +05:30 [INF] HTTP POST /api/auth/register responded 201 in 177.2384 ms
+2020-08-16 00:17:36.853 +05:30 [INF] HTTP OPTIONS /api/auth/login responded 204 in 0.0766 ms
+2020-08-16 00:17:36.875 +05:30 [INF] HTTP POST /api/auth/login responded 200 in 19.0104 ms
+2020-08-16 00:17:44.587 +05:30 [INF] HTTP OPTIONS /api/product/1 responded 204 in 0.0729 ms
+2020-08-16 00:17:44.604 +05:30 [INF] HTTP GET /api/product/1 responded 200 in 11.8770 ms
+2020-08-16 00:17:50.597 +05:30 [INF] HTTP OPTIONS /api/category responded 204 in 0.0751 ms
+2020-08-16 00:17:50.619 +05:30 [INF] Get categories completed.
+2020-08-16 00:17:50.619 +05:30 [INF] HTTP GET /api/category responded 200 in 3.9024 ms
+2020-08-16 00:17:52.143 +05:30 [INF] HTTP OPTIONS /api/product/3 responded 204 in 0.0726 ms
+2020-08-16 00:17:52.153 +05:30 [INF] HTTP GET /api/product/3 responded 200 in 4.2570 ms
+2020-08-16 00:17:53.900 +05:30 [INF] Get categories completed.
+2020-08-16 00:17:53.900 +05:30 [INF] HTTP GET /api/category responded 200 in 5.2942 ms
+2020-08-16 00:17:54.897 +05:30 [INF] HTTP OPTIONS /api/product/4 responded 204 in 0.1099 ms
+2020-08-16 00:17:54.904 +05:30 [INF] HTTP GET /api/product/4 responded 200 in 2.5637 ms
+2020-08-16 00:17:56.554 +05:30 [INF] HTTP OPTIONS /api/category responded 204 in 0.0610 ms
+2020-08-16 00:17:56.561 +05:30 [INF] Get categories completed.
+2020-08-16 00:17:56.565 +05:30 [INF] HTTP GET /api/category responded 200 in 6.7127 ms
+2020-08-16 00:17:58.056 +05:30 [INF] HTTP OPTIONS /api/product/3 responded 204 in 0.0601 ms
+2020-08-16 00:17:58.100 +05:30 [INF] HTTP GET /api/product/3 responded 200 in 3.3631 ms
+2020-08-16 00:17:59.315 +05:30 [INF] Get categories completed.
+2020-08-16 00:17:59.315 +05:30 [INF] HTTP GET /api/category responded 200 in 5.4592 ms
+2020-08-16 00:18:00.102 +05:30 [INF] HTTP OPTIONS /api/product/1 responded 204 in 0.0645 ms
+2020-08-16 00:18:00.110 +05:30 [INF] HTTP GET /api/product/1 responded 200 in 3.1510 ms
+2020-08-16 00:18:16.580 +05:30 [INF] HTTP OPTIONS /api/category responded 204 in 0.0716 ms
+2020-08-16 00:18:16.601 +05:30 [INF] Get categories completed.
+2020-08-16 00:18:16.602 +05:30 [INF] HTTP GET /api/category responded 200 in 3.3490 ms
+2020-08-16 00:18:18.766 +05:30 [INF] Get categories completed.
+2020-08-16 00:18:18.766 +05:30 [INF] HTTP GET /api/category responded 200 in 5.1128 ms
+2020-08-16 00:18:25.558 +05:30 [INF] HTTP OPTIONS /api/category responded 204 in 0.0949 ms
+2020-08-16 00:18:25.562 +05:30 [INF] Get categories completed.
+2020-08-16 00:18:25.563 +05:30 [INF] HTTP GET /api/category responded 200 in 3.1365 ms
+2020-08-16 00:18:27.200 +05:30 [INF] Get categories completed.
+2020-08-16 00:18:27.200 +05:30 [INF] HTTP GET /api/category responded 200 in 3.9438 ms
+2020-08-16 00:19:25.081 +05:30 [INF] HTTP OPTIONS /api/category responded 204 in 0.0632 ms
+2020-08-16 00:19:25.294 +05:30 [INF] Get categories completed.
+2020-08-16 00:19:25.310 +05:30 [INF] HTTP GET /api/category responded 200 in 48.9920 ms
+2020-08-16 00:19:27.780 +05:30 [INF] Get categories completed.
+2020-08-16 00:19:27.781 +05:30 [INF] HTTP GET /api/category responded 200 in 9.5964 ms
+2020-08-16 00:19:39.540 +05:30 [INF] HTTP OPTIONS /api/category responded 204 in 0.0518 ms
+2020-08-16 00:19:39.723 +05:30 [INF] Get categories completed.
+2020-08-16 00:19:39.723 +05:30 [INF] HTTP GET /api/category responded 200 in 6.1592 ms
+2020-08-16 00:19:52.696 +05:30 [INF] HTTP OPTIONS /api/auth/login responded 204 in 0.2927 ms
+2020-08-16 00:19:52.801 +05:30 [INF] HTTP POST /api/auth/login responded 200 in 99.2913 ms
+2020-08-16 00:19:58.275 +05:30 [INF] HTTP OPTIONS /api/product/1 responded 204 in 0.7052 ms
+2020-08-16 00:19:58.342 +05:30 [INF] HTTP GET /api/product/1 responded 200 in 20.4278 ms
+2020-08-16 00:46:09.253 +05:30 [INF] HTTP OPTIONS /api/product/undefined responded 204 in 7.5885 ms
+2020-08-16 00:46:09.404 +05:30 [INF] HTTP GET /api/product/undefined responded 400 in 104.9031 ms
+2020-08-16 02:03:16.914 +05:30 [INF] HTTP OPTIONS /api/category responded 204 in 9.2083 ms
+2020-08-16 02:03:18.420 +05:30 [INF] Get categories completed.
+2020-08-16 02:03:18.426 +05:30 [INF] HTTP GET /api/category responded 200 in 1348.3681 ms
+2020-08-16 02:03:44.666 +05:30 [INF] HTTP GET /api/product/1 responded 200 in 98.6438 ms
+2020-08-16 02:03:47.629 +05:30 [INF] Get categories completed.
+2020-08-16 02:03:47.631 +05:30 [INF] HTTP GET /api/category responded 200 in 9.2359 ms
+2020-08-16 02:03:48.634 +05:30 [INF] HTTP GET /api/product/4 responded 200 in 12.9733 ms
+2020-08-16 02:03:50.400 +05:30 [INF] Get categories completed.
+2020-08-16 02:03:50.407 +05:30 [INF] HTTP GET /api/category responded 200 in 14.2473 ms
+2020-08-16 02:03:52.088 +05:30 [INF] HTTP GET /api/product/3 responded 200 in 11.1079 ms
+2020-08-16 16:28:31.291 +05:30 [INF] HTTP GET /api/product/undefined responded 400 in 12.5760 ms
+2020-08-16 16:33:02.444 +05:30 [INF] HTTP GET /api/product/undefined responded 400 in 72.3463 ms
+2020-08-16 16:36:59.461 +05:30 [INF] HTTP GET /api/product/undefined responded 400 in 60.7244 ms
+2020-08-16 16:37:01.104 +05:30 [INF] Get categories completed.
+2020-08-16 16:37:01.111 +05:30 [INF] HTTP GET /api/category responded 200 in 1429.5840 ms
+2020-08-16 16:37:19.482 +05:30 [INF] Get categories completed.
+2020-08-16 16:37:19.484 +05:30 [INF] HTTP GET /api/category responded 200 in 8.5036 ms
+2020-08-16 16:37:32.585 +05:30 [INF] Get categories completed.
+2020-08-16 16:37:32.586 +05:30 [INF] HTTP GET /api/category responded 200 in 11.8169 ms
+2020-08-16 16:37:35.720 +05:30 [INF] Get categories completed.
+2020-08-16 16:37:35.721 +05:30 [INF] HTTP GET /api/category responded 200 in 10.3928 ms
+2020-08-16 16:37:39.483 +05:30 [INF] Get categories completed.
+2020-08-16 16:37:39.484 +05:30 [INF] HTTP GET /api/category responded 200 in 7.5974 ms
+2020-08-16 16:37:41.394 +05:30 [INF] Get categories completed.
+2020-08-16 16:37:41.394 +05:30 [INF] HTTP GET /api/category responded 200 in 9.8111 ms
+2020-08-16 16:37:46.172 +05:30 [INF] Get categories completed.
+2020-08-16 16:37:46.173 +05:30 [INF] HTTP GET /api/category responded 200 in 7.1174 ms
+2020-08-16 16:37:48.701 +05:30 [INF] Get categories completed.
+2020-08-16 16:37:48.706 +05:30 [INF] HTTP GET /api/category responded 200 in 12.6263 ms
+2020-08-16 16:38:29.927 +05:30 [INF] Get categories completed.
+2020-08-16 16:38:29.928 +05:30 [INF] HTTP GET /api/category responded 200 in 9.6349 ms
+2020-08-16 16:38:31.177 +05:30 [INF] Get categories completed.
+2020-08-16 16:38:31.178 +05:30 [INF] HTTP GET /api/category responded 200 in 6.0632 ms
+2020-08-16 16:38:31.271 +05:30 [INF] HTTP GET /api/product/1 responded 200 in 132.4461 ms
+2020-08-16 16:38:58.628 +05:30 [INF] Get categories completed.
+2020-08-16 16:38:58.629 +05:30 [INF] HTTP GET /api/category responded 200 in 9.6907 ms
+2020-08-16 16:38:59.983 +05:30 [INF] HTTP GET /api/product/1 responded 200 in 13.5199 ms
+2020-08-16 16:38:59.999 +05:30 [INF] Get categories completed.
+2020-08-16 16:38:59.999 +05:30 [INF] HTTP GET /api/category responded 200 in 6.4090 ms
+2020-08-16 16:39:01.666 +05:30 [INF] Get categories completed.
+2020-08-16 16:39:01.666 +05:30 [INF] HTTP GET /api/category responded 200 in 21.8499 ms
+2020-08-16 16:39:12.667 +05:30 [INF] HTTP GET /api/product/1 responded 200 in 40.2464 ms
+2020-08-16 16:39:12.690 +05:30 [INF] Get categories completed.
+2020-08-16 16:39:12.690 +05:30 [INF] HTTP GET /api/category responded 200 in 53.1384 ms
+2020-08-16 16:40:50.683 +05:30 [INF] HTTP GET /api/product/undefined responded 400 in 36.8079 ms
+2020-08-16 16:40:50.706 +05:30 [INF] Get categories completed.
+2020-08-16 16:40:50.707 +05:30 [INF] HTTP GET /api/category responded 200 in 44.9528 ms
+2020-08-16 16:40:59.667 +05:30 [INF] Get categories completed.
+2020-08-16 16:40:59.667 +05:30 [INF] HTTP GET /api/category responded 200 in 6.6245 ms
+2020-08-16 16:41:06.612 +05:30 [INF] Get categories completed.
+2020-08-16 16:41:06.623 +05:30 [INF] HTTP GET /api/category responded 200 in 23.5735 ms
+2020-08-16 16:41:06.641 +05:30 [INF] HTTP GET /api/product/1 responded 200 in 75.6145 ms
+2020-08-16 16:42:00.487 +05:30 [INF] Get categories completed.
+2020-08-16 16:42:00.488 +05:30 [INF] HTTP GET /api/category responded 200 in 15.0209 ms
+2020-08-16 16:42:05.044 +05:30 [INF] Get categories completed.
+2020-08-16 16:42:05.076 +05:30 [INF] HTTP GET /api/category responded 200 in 40.0928 ms
+2020-08-16 16:42:05.103 +05:30 [INF] HTTP GET /api/product/1 responded 200 in 66.3314 ms
+2020-08-16 16:42:13.183 +05:30 [INF] Get categories completed.
+2020-08-16 16:42:13.184 +05:30 [INF] HTTP GET /api/category responded 200 in 9.1886 ms
+2020-08-16 16:42:14.808 +05:30 [INF] Get categories completed.
+2020-08-16 16:42:14.822 +05:30 [INF] HTTP GET /api/category responded 200 in 23.5731 ms
+2020-08-16 16:42:14.832 +05:30 [INF] HTTP GET /api/product/4 responded 200 in 34.1275 ms
+2020-08-16 16:42:43.533 +05:30 [INF] HTTP GET /api/product/undefined responded 400 in 10.5657 ms
+2020-08-16 16:42:57.367 +05:30 [INF] Get categories completed.
+2020-08-16 16:42:57.367 +05:30 [INF] HTTP GET /api/category responded 200 in 5.5060 ms
+2020-08-16 16:42:59.350 +05:30 [INF] HTTP GET /api/product/1 responded 200 in 9.0728 ms
+2020-08-16 16:43:02.045 +05:30 [INF] Get categories completed.
+2020-08-16 16:43:02.046 +05:30 [INF] HTTP GET /api/category responded 200 in 9.7630 ms
+2020-08-16 16:43:03.600 +05:30 [INF] HTTP GET /api/product/3 responded 200 in 20.4000 ms
+2020-08-16 16:43:06.713 +05:30 [INF] Get categories completed.
+2020-08-16 16:43:06.713 +05:30 [INF] HTTP GET /api/category responded 200 in 7.0257 ms
+2020-08-16 16:43:14.900 +05:30 [INF] Get categories completed.
+2020-08-16 16:43:14.901 +05:30 [INF] HTTP GET /api/category responded 200 in 6.8934 ms
+2020-08-16 16:43:16.019 +05:30 [INF] Get categories completed.
+2020-08-16 16:43:16.020 +05:30 [INF] HTTP GET /api/category responded 200 in 8.7675 ms
+2020-08-16 16:43:19.051 +05:30 [INF] Get categories completed.
+2020-08-16 16:43:19.052 +05:30 [INF] HTTP GET /api/category responded 200 in 9.1317 ms
+2020-08-16 16:43:20.830 +05:30 [INF] Get categories completed.
+2020-08-16 16:43:20.831 +05:30 [INF] HTTP GET /api/category responded 200 in 9.7425 ms
+2020-08-16 16:43:34.609 +05:30 [INF] Get categories completed.
+2020-08-16 16:43:34.610 +05:30 [INF] HTTP GET /api/category responded 200 in 6.7791 ms
+2020-08-16 16:43:36.644 +05:30 [INF] Get categories completed.
+2020-08-16 16:43:36.644 +05:30 [INF] HTTP GET /api/category responded 200 in 12.1873 ms
+2020-08-16 16:43:41.518 +05:30 [INF] HTTP GET /api/product/4 responded 200 in 8.2230 ms
+2020-08-16 16:43:45.245 +05:30 [INF] Get categories completed.
+2020-08-16 16:43:45.246 +05:30 [INF] HTTP GET /api/category responded 200 in 8.9756 ms
+2020-08-16 16:43:47.757 +05:30 [INF] Get categories completed.
+2020-08-16 16:43:47.757 +05:30 [INF] HTTP GET /api/category responded 200 in 7.4498 ms
+2020-08-16 16:43:51.666 +05:30 [INF] Get categories completed.
+2020-08-16 16:43:51.667 +05:30 [INF] HTTP GET /api/category responded 200 in 8.2026 ms
+2020-08-16 16:43:59.891 +05:30 [INF] Get categories completed.
+2020-08-16 16:43:59.892 +05:30 [INF] HTTP GET /api/category responded 200 in 9.9579 ms
+2020-08-16 16:44:03.476 +05:30 [INF] Get categories completed.
+2020-08-16 16:44:03.477 +05:30 [INF] HTTP GET /api/category responded 200 in 8.8079 ms
+2020-08-16 16:44:04.943 +05:30 [INF] HTTP GET /api/product/1 responded 200 in 21.5707 ms
+2020-08-16 16:44:05.834 +05:30 [INF] Get categories completed.
+2020-08-16 16:44:05.835 +05:30 [INF] HTTP GET /api/category responded 200 in 10.0258 ms
+2020-08-16 16:44:07.453 +05:30 [INF] HTTP GET /api/product/4 responded 200 in 11.9913 ms
+2020-08-16 16:44:33.080 +05:30 [INF] Get categories completed.
+2020-08-16 16:44:33.080 +05:30 [INF] HTTP GET /api/category responded 200 in 6.3966 ms
+2020-08-16 16:44:39.346 +05:30 [INF] HTTP GET /api/product/1 responded 200 in 6.3774 ms
+2020-08-16 16:44:41.185 +05:30 [INF] Get categories completed.
+2020-08-16 16:44:41.185 +05:30 [INF] HTTP GET /api/category responded 200 in 10.6093 ms
+2020-08-16 16:44:42.945 +05:30 [INF] Get categories completed.
+2020-08-16 16:44:42.946 +05:30 [INF] HTTP GET /api/category responded 200 in 7.6022 ms
+2020-08-16 16:45:11.834 +05:30 [INF] HTTP GET /api/product/1 responded 200 in 17.6136 ms
+2020-08-16 17:49:32.127 +05:30 [INF] Get categories completed.
+2020-08-16 17:49:32.131 +05:30 [INF] HTTP GET /api/category responded 200 in 1028.3170 ms
+2020-08-16 17:49:40.985 +05:30 [INF] Get categories completed.
+2020-08-16 17:49:40.985 +05:30 [INF] HTTP GET /api/category responded 200 in 3.9102 ms
+2020-08-16 17:49:42.469 +05:30 [INF] Get categories completed.
+2020-08-16 17:49:42.470 +05:30 [INF] HTTP GET /api/category responded 200 in 5.2054 ms
+2020-08-16 17:51:28.739 +05:30 [INF] Get categories completed.
+2020-08-16 17:51:28.740 +05:30 [INF] HTTP GET /api/category responded 200 in 5.8388 ms
+2020-08-16 17:51:30.938 +05:30 [INF] Get categories completed.
+2020-08-16 17:51:30.938 +05:30 [INF] HTTP GET /api/category responded 200 in 3.2499 ms
+2020-08-16 17:53:46.797 +05:30 [INF] Get categories completed.
+2020-08-16 17:53:46.804 +05:30 [INF] HTTP GET /api/category responded 200 in 11.6579 ms
+2020-08-16 17:54:06.790 +05:30 [INF] Get categories completed.
+2020-08-16 17:54:06.792 +05:30 [INF] HTTP GET /api/category responded 200 in 33.5111 ms
+2020-08-16 17:54:10.834 +05:30 [INF] Get categories completed.
+2020-08-16 17:54:10.834 +05:30 [INF] HTTP GET /api/category responded 200 in 3.0264 ms

@@ -1,9 +1,11 @@
-<!-- <router-outlet> -->
-<div class="container pt-5">
+<body>
     <div class="row">
-        <div *ngFor="let category of categories" class="div.col-lg-2.col-md-3.col-sm-6">
+   
+    <div class="col-md-2">
+        <div *ngFor="let category of categories" class="div.col-lg-2.col-md-3.col-sm" >
         <app-category-card [category]= "category"></app-category-card>
         </div>
     </div>
-  </div>
-<!-- </router-outlet> -->
+
+    </div>
+</body>  

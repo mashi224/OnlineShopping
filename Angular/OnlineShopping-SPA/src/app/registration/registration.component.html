@@ -1,0 +1,25 @@
+<mat-card>
+  <mat-card-header>
+      <mat-card-title>Join with us!</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+        <form #registerForm="ngForm" (ngSubmit)="register()">
+          <mat-form-field>
+            <input  matInput  placeholder="Username" [(ngModel)]="model.username"  type="username" name="username"  required>
+          </mat-form-field>
+          <mat-form-field>
+            <input  matInput  placeholder="Password" [(ngModel)]="model.password"  type="password" name="password"  required>
+          </mat-form-field> 
+          <mat-form-field>
+            <input  matInput  placeholder="Your Email" [(ngModel)]="model.email"  type="email" name="email"  required>
+          </mat-form-field>
+          <mat-form-field>
+            <input  matInput  placeholder="Your Address" [(ngModel)]="model.userAddress"  type="userAddress" name="userAddress"  required>
+          </mat-form-field>
+        </form>
+  </mat-card-content>
+  <mat-card-actions>
+        <button mat-raised-button type="submit" (click)="register()" color="primary">Join</button>
+        <button mat-raised-button type="button" (click)="cancel()">Cancel</button>
+  </mat-card-actions>
+</mat-card>

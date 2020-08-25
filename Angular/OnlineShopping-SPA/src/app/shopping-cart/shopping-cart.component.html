@@ -1,0 +1,47 @@
+<div *ngIf="cartItems.length === 0" class="alert alert-info">Your Cart is Empty.</div>
+
+<div *ngIf="cartItems.length > 0" class="col-md-7 order-md-1">
+<!-- <div class="classpy-5 center"> -->
+  <!-- <div class="col-md-10 order-md-2 mb-4"> -->
+    <h4 class="d-flex justify-content-between align-items-center mb-3">
+      <span class="text-muted">Your cart</span>
+    </h4>
+    <ul>
+      <li class="cart-items list-group-item justify-content-between" *ngFor="let item of cartItems">
+        <app-cart-item [cartItem]= "item"> </app-cart-item>
+      </li>
+      <li class="list-group-item d-flex justify-content-between">
+        <strong>Total (USD) : </strong> {{ cartTotal | currency:'USD'}}
+      </li>
+      <br/>
+      <div class="d-flex justify-content-between">
+       <button class="btn btn-primary btn-lg btn-block" type="submit">Continue to checkout</button>
+       </div>
+    </ul>
+    <!-- </div> -->
+
+  <!-- </div> -->
+</div>
+
+
+
+
+
+
+
+
+
+
+<!-- 
+
+<div *ngIf="cartItems.length === 0" class="alert alert-info">Your Cart is Empty.</div>
+
+<ul *ngIf="cartItems.length > 0" class="list-group">
+  <li class="list-group-item" *ngFor="let item of cartItems">
+    <app-cart-item [cartItem]="item"></app-cart-item>
+  </li>
+
+  <li class="list-group-item active">
+    <strong>Total</strong> {{ cartTotal | currency:'INR' }}
+  </li>
+</ul> -->

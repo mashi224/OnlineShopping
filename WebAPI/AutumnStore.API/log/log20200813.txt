@@ -1,0 +1,5 @@
+2020-08-13 19:28:26.972 +05:30 [WRN] No type was specified for the decimal column 'ProductPrice' on entity type 'Products'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-08-13 19:28:39.601 +05:30 [INF] Get categories completed.
+2020-08-13 19:29:05.797 +05:30 [INF] HTTP GET /api/Category responded 200 in 53566.5146 ms
+2020-08-13 19:34:18.711 +05:30 [WRN] No type was specified for the decimal column 'ProductPrice' on entity type 'Products'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-08-13 19:34:22.953 +05:30 [INF] HTTP POST /api/Auth/register responded 201 in 7509.0685 ms
