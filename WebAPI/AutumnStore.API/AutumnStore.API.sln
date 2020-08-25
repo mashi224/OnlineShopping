@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutumnStore.API", "AutumnStore.API.csproj", "{5DC64EC8-6BB8-4F76-91E4-3ABE85F460ED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutumnStore.Controller", "..\AutumnStore.Controller\AutumnStore.Controller.csproj", "{7E5F05A0-2D47-4967-882E-948481E69A57}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutumnStore.Business", "..\AutumnStore.Business\AutumnStore.Business.csproj", "{EC9202F5-75F8-41E7-878D-01C47C0AA3C2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutumnStore.Data", "..\AutumnStore.Data\AutumnStore.Data.csproj", "{FB0B023A-1A4C-4481-92B1-08DBBF8177E1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutumnStore.Entity", "..\AutumnStore.Entity\AutumnStore.Entity.csproj", "{F563E007-0D4A-4840-8A60-2967C76BEA15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutumnStore.Test", "..\AutumnStore.Test\AutumnStore.Test.csproj", "{9234F112-B33A-42C1-B3F9-8EAB6674E453}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DC64EC8-6BB8-4F76-91E4-3ABE85F460ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DC64EC8-6BB8-4F76-91E4-3ABE85F460ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DC64EC8-6BB8-4F76-91E4-3ABE85F460ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DC64EC8-6BB8-4F76-91E4-3ABE85F460ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E5F05A0-2D47-4967-882E-948481E69A57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E5F05A0-2D47-4967-882E-948481E69A57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E5F05A0-2D47-4967-882E-948481E69A57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E5F05A0-2D47-4967-882E-948481E69A57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC9202F5-75F8-41E7-878D-01C47C0AA3C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC9202F5-75F8-41E7-878D-01C47C0AA3C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC9202F5-75F8-41E7-878D-01C47C0AA3C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC9202F5-75F8-41E7-878D-01C47C0AA3C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB0B023A-1A4C-4481-92B1-08DBBF8177E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB0B023A-1A4C-4481-92B1-08DBBF8177E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB0B023A-1A4C-4481-92B1-08DBBF8177E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB0B023A-1A4C-4481-92B1-08DBBF8177E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F563E007-0D4A-4840-8A60-2967C76BEA15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F563E007-0D4A-4840-8A60-2967C76BEA15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F563E007-0D4A-4840-8A60-2967C76BEA15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F563E007-0D4A-4840-8A60-2967C76BEA15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9234F112-B33A-42C1-B3F9-8EAB6674E453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9234F112-B33A-42C1-B3F9-8EAB6674E453}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9234F112-B33A-42C1-B3F9-8EAB6674E453}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9234F112-B33A-42C1-B3F9-8EAB6674E453}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EF890918-01BE-4030-8AE9-D8440C3247C9}
+	EndGlobalSection
+EndGlobal

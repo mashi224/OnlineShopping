@@ -1,6 +1,12 @@
 <div class="card m-1">
   <div class="card" style="width: 18rem;">
-    <img src= "{{product.productImage}}" class="card-img-top" alt="CategoryImage" style= "height: 18rem;">
+    <div class= "container">
+      <img src= "{{product.productImage}}" class="card-img-top" alt="CategoryImage" style= "height: 18rem;">
+      <button class="btn btn-default btn-lg">
+        <span class="glyphicon glyphicon-shopping-cart" (click)="handleAddToCart()"> <i class="fa fa-shopping-cart"></i> </span>
+      </button>
+      <!-- <button (click)="loadProducts(this.category.id)" class="fa fa-shopping-cart" [routerLink]="['/product/', category.id]">Go to products>></button> -->
+    </div>
     <div class="card-body">
       <h5 class="card-title"> {{product.productName}} </h5>
       <p class="card-text">
