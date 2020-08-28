@@ -1,4 +1,13 @@
-.number-input input[type="number"] {
+    .btn {
+        /* background-color:red; */
+        border: none;
+        color: red;
+        padding: 12px 16px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    
+    .number-input input[type="number"] {
     -webkit-appearance: textfield;
     -moz-appearance: textfield;
     appearance: textfield;
