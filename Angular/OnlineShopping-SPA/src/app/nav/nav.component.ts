@@ -17,7 +17,8 @@ export class NavComponent implements OnInit {
   constructor(public authService: AuthService, private alertify: AlertifyService) { }
 
   ngOnInit() {
-    this.cartItemsCount = JSON.parse(localStorage.item).length;
+    if('item' in localStorage)
+      this.cartItemsCount = JSON.parse(localStorage.item).length;
   }
 
   login() {

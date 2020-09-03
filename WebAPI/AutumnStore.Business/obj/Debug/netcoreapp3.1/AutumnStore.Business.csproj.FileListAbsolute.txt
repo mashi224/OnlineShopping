@@ -1,0 +1,17 @@
+C:\Users\Mashi\GitHub\OnlineShopping\WebAPI\AutumnStore.Business\bin\Debug\netcoreapp3.1\AutumnStore.Business.deps.json
+C:\Users\Mashi\GitHub\OnlineShopping\WebAPI\AutumnStore.Business\bin\Debug\netcoreapp3.1\AutumnStore.Business.runtimeconfig.json
+C:\Users\Mashi\GitHub\OnlineShopping\WebAPI\AutumnStore.Business\bin\Debug\netcoreapp3.1\AutumnStore.Business.runtimeconfig.dev.json
+C:\Users\Mashi\GitHub\OnlineShopping\WebAPI\AutumnStore.Business\bin\Debug\netcoreapp3.1\AutumnStore.Business.dll
+C:\Users\Mashi\GitHub\OnlineShopping\WebAPI\AutumnStore.Business\bin\Debug\netcoreapp3.1\AutumnStore.Business.pdb
+C:\Users\Mashi\GitHub\OnlineShopping\WebAPI\AutumnStore.Business\bin\Debug\netcoreapp3.1\AutumnStore.Data.dll
+C:\Users\Mashi\GitHub\OnlineShopping\WebAPI\AutumnStore.Business\bin\Debug\netcoreapp3.1\AutumnStore.Entity.dll
+C:\Users\Mashi\GitHub\OnlineShopping\WebAPI\AutumnStore.Business\bin\Debug\netcoreapp3.1\AutumnStore.Data.pdb
+C:\Users\Mashi\GitHub\OnlineShopping\WebAPI\AutumnStore.Business\bin\Debug\netcoreapp3.1\AutumnStore.Entity.pdb
+C:\Users\Mashi\GitHub\OnlineShopping\WebAPI\AutumnStore.Business\obj\Debug\netcoreapp3.1\AutumnStore.Business.csprojAssemblyReference.cache
+C:\Users\Mashi\GitHub\OnlineShopping\WebAPI\AutumnStore.Business\obj\Debug\netcoreapp3.1\AutumnStore.Business.AssemblyInfoInputs.cache
+C:\Users\Mashi\GitHub\OnlineShopping\WebAPI\AutumnStore.Business\obj\Debug\netcoreapp3.1\AutumnStore.Business.AssemblyInfo.cs
+C:\Users\Mashi\GitHub\OnlineShopping\WebAPI\AutumnStore.Business\obj\Debug\netcoreapp3.1\AutumnStore.Business.csproj.CoreCompileInputs.cache
+C:\Users\Mashi\GitHub\OnlineShopping\WebAPI\AutumnStore.Business\obj\Debug\netcoreapp3.1\AutumnStore.Business.csproj.CopyComplete
+C:\Users\Mashi\GitHub\OnlineShopping\WebAPI\AutumnStore.Business\obj\Debug\netcoreapp3.1\AutumnStore.Business.dll
+C:\Users\Mashi\GitHub\OnlineShopping\WebAPI\AutumnStore.Business\obj\Debug\netcoreapp3.1\AutumnStore.Business.pdb
+C:\Users\Mashi\GitHub\OnlineShopping\WebAPI\AutumnStore.Business\obj\Debug\netcoreapp3.1\AutumnStore.Business.genruntimeconfig.cache

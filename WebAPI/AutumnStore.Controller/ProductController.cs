@@ -1,8 +1,6 @@
-﻿using System.Collections.Generic;
-using System.Threading.Tasks;
-using AutoMapper;
+﻿using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using RouteAttribute = Microsoft.AspNetCore.Mvc.RouteAttribute;
+//using RouteAttribute = Microsoft.AspNetCore.Mvc.RouteAttribute;
 using AutumnStore.Business.Interfaces;
 
 namespace AutumnStore.Controller
@@ -13,19 +11,17 @@ namespace AutumnStore.Controller
     public class ProductController : ControllerBase
     {
         private readonly IProductManagement _productManagement;
-        private readonly IMapper _mapper;
 
-        public ProductController(IProductManagement productManagement, IMapper mapper)
+        public ProductController(IProductManagement productManagement)
         {
-            _mapper = mapper;
             _productManagement = productManagement;
         }
 
         // GET api/product/5
-        [HttpGet("{id}")]
-        public async Task<IActionResult> GetProducts(int id)
+        [HttpGet("{categoryId}")]
+        public async Task<IActionResult> GetProducts(int categoryId)
         {
-            var products = await _productManagement.GetProducts(id);
+            var products = await _productManagement.GetProducts(categoryId);
             return Ok(products);
         }
     }

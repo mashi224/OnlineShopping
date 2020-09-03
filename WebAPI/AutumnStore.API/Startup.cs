@@ -55,9 +55,11 @@ namespace AutumnStore.API
             services.AddScoped<ICategoryManagement, CategoryManagement>();
             services.AddScoped<IAuthManagement, AuthManagement>();
             services.AddScoped<IProductManagement, ProductManagement>();
+            services.AddScoped<IPaymentManagement, PaymentManagement>();
             services.AddScoped<IAuthRepository, AuthRepository>();
             services.AddScoped<IProductRepository, ProductRepository>();
             services.AddScoped<ICategoryRepository, CategoryRepository>();
+            services.AddScoped<IPaymentRepository, PaymentRepository>();
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 .AddJwtBearer(options => {
                     options.TokenValidationParameters = new TokenValidationParameters

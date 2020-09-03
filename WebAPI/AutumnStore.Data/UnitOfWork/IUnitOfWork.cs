@@ -7,6 +7,7 @@ namespace AutumnStore.Data.UnitOfWork
         IAuthRepository AuthRepository { get; }
         ICategoryRepository CategoryRepository { get; }
         IProductRepository ProductRepository { get; }
+        IPaymentRepository PaymentRepository { get; }
         void Commit();
         void Rollback();
     }

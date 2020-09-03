@@ -23,29 +23,7 @@ export class CartItemsService {
           price : product.productPrice,
         })
       } 
-      // else if(localStorage.value('item').length != 0 ) {
-      // }
-
-
-    // else {
-      
-    //     else {
-    //       this.cartItems.push({
-    //         productId : product.id,
-    //         productName : product.productName,
-    //         qty : 1,
-    //         price : product.productPrice
-    //       })
-    //     }
-    //     console.log(this.cartItems)
-    //   }
-    // }
-
-    // this.cartTotal = 0;
-    // this.cartItems.forEach(cartItem => {
-    //   this.cartTotal += (cartItem.qty * cartItem.price)
-   
-
+  
     localStorage.setItem('item', JSON.stringify(this.cartItems))
   }
 
@@ -55,8 +33,8 @@ export class CartItemsService {
 
   removeItems(itemToRemove) {
       var currentArray = JSON.parse(localStorage.getItem('item'));
-      var i = currentArray.productId;
-      for (i = 0; i < currentArray.length; ++i) {
+      // var i = currentArray.productId;
+      for (var i = 0; i < currentArray.length; ++i) {
         if (currentArray[i].productId === itemToRemove.productId) {
           currentArray.splice(i, 1) 
           localStorage.setItem('item', JSON.stringify(currentArray))
@@ -79,8 +57,8 @@ export class CartItemsService {
 
   changeQty(cartItem) {
     var currentArray = JSON.parse(localStorage.getItem('item'));
-      var i = currentArray.productId;
-      for (i = 0; i < currentArray.length; ++i) {
+      // var i = currentArray.productId;
+      for (var i = 0; i < currentArray.length; ++i) {
         if (currentArray[i].productId === cartItem.productId) {
           currentArray[i].qty = cartItem.qty
           // this.getUpdatedCartTotal(cartItem);
