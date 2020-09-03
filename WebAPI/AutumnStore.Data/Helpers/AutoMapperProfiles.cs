@@ -11,6 +11,7 @@ namespace AutumnStore.Data.Helpers
             CreateMap<Products, ProductDto>();
             CreateMap<Category, CategoryDto>();
             CreateMap<User, UserForRegisterDto>().ReverseMap();
+            CreateMap<User, UserForRegisterDto>();
             CreateMap<User, UserForLoginDto>();
         }
     }

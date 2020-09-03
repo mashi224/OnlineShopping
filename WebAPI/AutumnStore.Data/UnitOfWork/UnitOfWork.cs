@@ -1,7 +1,6 @@
 ﻿using AutoMapper;
 using AutumnStore.Data.Repository;
 using AutumnStore.Data.Repository.Interfaces;
-using Microsoft.EntityFrameworkCore;
 
 namespace AutumnStore.Data.UnitOfWork
 {
@@ -12,6 +11,7 @@ namespace AutumnStore.Data.UnitOfWork
         private ICategoryRepository _categoryRepository;
         private IAuthRepository _authRepository;
         private IProductRepository _productRepository;
+        private IPaymentRepository _paymentRepository;
 
         public UnitOfWork(DataContext dataContext, IMapper mapper)
         {
@@ -32,6 +32,11 @@ namespace AutumnStore.Data.UnitOfWork
         public IProductRepository ProductRepository
         {
             get { return _productRepository = _productRepository ?? new ProductRepository(_dataContext, _mapper); }
+        }
+
+        public IPaymentRepository PaymentRepository
+        {
+            get { return _paymentRepository = _paymentRepository ?? new PaymentRepository(_dataContext, _mapper); }
         }
 
         public void Commit()

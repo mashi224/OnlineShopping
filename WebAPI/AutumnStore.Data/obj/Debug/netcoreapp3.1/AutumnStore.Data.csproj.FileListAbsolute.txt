@@ -1,0 +1,15 @@
+C:\Users\Mashi\GitHub\OnlineShopping\WebAPI\AutumnStore.Data\bin\Debug\netcoreapp3.1\AutumnStore.Data.deps.json
+C:\Users\Mashi\GitHub\OnlineShopping\WebAPI\AutumnStore.Data\bin\Debug\netcoreapp3.1\AutumnStore.Data.runtimeconfig.json
+C:\Users\Mashi\GitHub\OnlineShopping\WebAPI\AutumnStore.Data\bin\Debug\netcoreapp3.1\AutumnStore.Data.runtimeconfig.dev.json
+C:\Users\Mashi\GitHub\OnlineShopping\WebAPI\AutumnStore.Data\bin\Debug\netcoreapp3.1\AutumnStore.Data.dll
+C:\Users\Mashi\GitHub\OnlineShopping\WebAPI\AutumnStore.Data\bin\Debug\netcoreapp3.1\AutumnStore.Data.pdb
+C:\Users\Mashi\GitHub\OnlineShopping\WebAPI\AutumnStore.Data\bin\Debug\netcoreapp3.1\AutumnStore.Entity.dll
+C:\Users\Mashi\GitHub\OnlineShopping\WebAPI\AutumnStore.Data\bin\Debug\netcoreapp3.1\AutumnStore.Entity.pdb
+C:\Users\Mashi\GitHub\OnlineShopping\WebAPI\AutumnStore.Data\obj\Debug\netcoreapp3.1\AutumnStore.Data.csprojAssemblyReference.cache
+C:\Users\Mashi\GitHub\OnlineShopping\WebAPI\AutumnStore.Data\obj\Debug\netcoreapp3.1\AutumnStore.Data.AssemblyInfoInputs.cache
+C:\Users\Mashi\GitHub\OnlineShopping\WebAPI\AutumnStore.Data\obj\Debug\netcoreapp3.1\AutumnStore.Data.AssemblyInfo.cs
+C:\Users\Mashi\GitHub\OnlineShopping\WebAPI\AutumnStore.Data\obj\Debug\netcoreapp3.1\AutumnStore.Data.csproj.CoreCompileInputs.cache
+C:\Users\Mashi\GitHub\OnlineShopping\WebAPI\AutumnStore.Data\obj\Debug\netcoreapp3.1\AutumnStore.Data.csproj.CopyComplete
+C:\Users\Mashi\GitHub\OnlineShopping\WebAPI\AutumnStore.Data\obj\Debug\netcoreapp3.1\AutumnStore.Data.dll
+C:\Users\Mashi\GitHub\OnlineShopping\WebAPI\AutumnStore.Data\obj\Debug\netcoreapp3.1\AutumnStore.Data.pdb
+C:\Users\Mashi\GitHub\OnlineShopping\WebAPI\AutumnStore.Data\obj\Debug\netcoreapp3.1\AutumnStore.Data.genruntimeconfig.cache

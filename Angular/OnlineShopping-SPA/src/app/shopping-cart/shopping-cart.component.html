@@ -1,4 +1,4 @@
-<div *ngIf="cartItems.length === 0" class="alert alert-info">Your Cart is Empty.</div>
+<div *ngIf="cartItems.length === 0" class="alert alert-info"> <b><i>YOUR CART IS EMPTY.</i></b> </div>
 
 <div *ngIf="cartItems.length > 0" class="col-md-7 order-md-1">
 <!-- <div class="classpy-5 center"> -->
@@ -11,12 +11,18 @@
         <app-cart-item [cartItem]= "item"> </app-cart-item>
       </li>
       <li class="list-group-item d-flex justify-content-between">
-        <strong>Total (USD) : </strong> {{ cartTotal | currency:'USD'}}
+        <!-- <strong>Total (USD) : </strong> {{ cartTotal | currency:'USD'}} -->
+        <strong>Total (USD) : </strong>
+        <!-- <input readonly name="cartTotal" value="{{this.cartTotal}}" type="number" [(ngModel)]="this.cartTotal"> -->
+        <div class="col-md-4">
+          <strong> {{cartTotal | currency:'USD'}} </strong>
+        </div>
+        <!-- {{getCartTotal()}} -->
       </li>
       <br/>
       <div class="d-flex justify-content-between">
-       <button class="btn btn-primary btn-lg btn-block" type="submit">Continue to checkout</button>
-       </div>
+       <button class="btn btn-primary btn-lg btn-block" type="submit" [routerLink]="['/checkout']">Continue to checkout</button>
+      </div>
     </ul>
     <!-- </div> -->
 

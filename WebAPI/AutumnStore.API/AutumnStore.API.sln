@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutumnStore.Data", "..\Autu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutumnStore.Entity", "..\AutumnStore.Entity\AutumnStore.Entity.csproj", "{F563E007-0D4A-4840-8A60-2967C76BEA15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutumnStore.Test", "..\AutumnStore.Test\AutumnStore.Test.csproj", "{9234F112-B33A-42C1-B3F9-8EAB6674E453}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutumnStore.Test", "..\AutumnStore.Test\AutumnStore.Test.csproj", "{9234F112-B33A-42C1-B3F9-8EAB6674E453}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,0 +1,18 @@
+2020-09-03 11:05:10.485 +05:30 [INF] HTTP OPTIONS /api/payment/billingUser/11 responded 204 in 0.0841 ms
+2020-09-03 11:05:15.185 +05:30 [INF] Get existing user details completed
+2020-09-03 11:05:15.187 +05:30 [INF] HTTP GET /api/payment/billingUser/11 responded 200 in 4536.6072 ms
+2020-09-03 11:05:28.978 +05:30 [INF] HTTP OPTIONS /api/auth/login responded 204 in 0.1754 ms
+2020-09-03 11:05:30.007 +05:30 [INF] HTTP POST /api/auth/login responded 200 in 1023.3698 ms
+2020-09-03 11:05:53.117 +05:30 [INF] HTTP OPTIONS /api/payment/billingUser/14 responded 204 in 0.0546 ms
+2020-09-03 11:05:53.176 +05:30 [INF] Get existing user details completed
+2020-09-03 11:05:53.178 +05:30 [INF] HTTP GET /api/payment/billingUser/14 responded 200 in 47.3255 ms
+2020-09-03 11:06:50.153 +05:30 [INF] Get categories completed.
+2020-09-03 11:06:50.169 +05:30 [INF] HTTP GET /api/category responded 200 in 95.8102 ms
+2020-09-03 11:06:52.142 +05:30 [INF] HTTP GET /api/product/1 responded 200 in 239.4716 ms
+2020-09-03 11:07:06.405 +05:30 [INF] Get categories completed.
+2020-09-03 11:07:06.406 +05:30 [INF] HTTP GET /api/category responded 200 in 28.8529 ms
+2020-09-03 11:08:02.321 +05:30 [INF] HTTP OPTIONS /api/auth/login responded 204 in 0.3277 ms
+2020-09-03 11:08:02.382 +05:30 [INF] HTTP POST /api/auth/login responded 200 in 51.8217 ms
+2020-09-03 11:08:06.796 +05:30 [INF] HTTP OPTIONS /api/payment/billingUser/14 responded 204 in 0.0580 ms
+2020-09-03 11:08:06.815 +05:30 [INF] Get existing user details completed
+2020-09-03 11:08:06.851 +05:30 [INF] HTTP GET /api/payment/billingUser/14 responded 200 in 51.7035 ms

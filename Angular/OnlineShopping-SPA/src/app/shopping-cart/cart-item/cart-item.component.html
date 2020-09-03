@@ -1,4 +1,5 @@
 <!-- <div class="cart-item"> -->
+  <div id = "row">
   <div class="row">
     <div class="col-md-4">
         <span> {{ cartItem.productName }} </span>
@@ -8,15 +9,17 @@
     
     <div class="col-md-4">
       <span>
-        <div class="def-number-input number-input safari_only">
-          <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"></button>
-          <input class="quantity" min="0" name="quantity" value="1" type="number">
-          <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
-        </div>
-      </span>
-     </div>
-    <!-- <span> {{ cartItem.qty }} </span> -->
-    
+        <!-- <div class="def-number-input number-input safari_only"> -->
+          <!-- <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus" style="background-color: red;" ></button> -->
+            <input min="1" name="qty" value="{{cartItem.qty}}" type="number" [(ngModel)]="cartItem.qty" style="width: 75px;">
+            {{changeQty(cartItem)}}
+          <!-- <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus" style="background-color:green;"></button> -->
+          <!-- <button (click)="increment(cartItem)" class="plus" style="background-color:green;"></button> -->
+
+        <!-- </div> -->
+        </span>
+    </div>
+
     <!-- qty of an item -->
     <div class="col-md-3">
       <strong> {{ cartItem.qty * cartItem.price | currency:'USD'}} </strong>
@@ -25,10 +28,11 @@
     <!-- remove item button -->
     <div class="d-flex justify-content-between">
       <!-- <button class="btn btn-default btn-lg" (click)="handleAddToCart()"> <i class="glyphicon glyphicon-trash"></i> -->
-        <button class="btn" (click)="removeItem()" ><i class="fa fa-trash"></i></button>
-      <!-- </button> -->
+        <button class="btn" (click)="removeItem(cartItem)"> <i class="fa fa-trash"></i></button>
+      <!-- </button> --> 
     </div>
   </div>
+</div>
   
 <!-- </div> -->
 

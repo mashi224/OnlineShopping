@@ -16,11 +16,11 @@ namespace AutumnStore.Business
             _unitOfWork = unitOfWork;
         }
 
-        public async Task<IEnumerable<ProductDto>> GetProducts(int id)
+        public async Task<IEnumerable<ProductDto>> GetProducts(int categoryId)
         {
             //var products = await _repo.GetProducts(id);
             //return products;
-            return await _unitOfWork.ProductRepository.GetProducts(id);
+            return await _unitOfWork.ProductRepository.GetProducts(categoryId);
         }
     }
 }

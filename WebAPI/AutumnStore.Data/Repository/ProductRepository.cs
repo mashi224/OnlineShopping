@@ -20,9 +20,9 @@ namespace AutumnStore.Data
             _mapper = mapper;
         }
 
-        public async Task<IEnumerable<ProductDto>> GetProducts(int id)
+        public async Task<IEnumerable<ProductDto>> GetProducts(int categoryId)
         {
-            var products = await _context.Products.Where(x => x.category.Id == id).ToListAsync();
+            var products = await _context.Products.Where(x => x.category.Id == categoryId).ToListAsync();
             return _mapper.Map<IEnumerable<ProductDto>>(products);
         }
     }

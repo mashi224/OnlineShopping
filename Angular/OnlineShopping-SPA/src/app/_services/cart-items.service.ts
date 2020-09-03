@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Product } from '../_models/product';
+// import { }
 
 @Injectable({
   providedIn: 'root'
@@ -7,6 +8,7 @@ import { Product } from '../_models/product';
 export class CartItemsService {
 
   cartItems =[];
+  cartTotal: number;
 
   constructor() { }
 
@@ -21,63 +23,84 @@ export class CartItemsService {
           price : product.productPrice,
         })
       } 
-      // else if(localStorage.value('item').length != 0 ) {
-
-      // }
-
-
-    // else {
-    //   for(let i in this.cartItems) {
-    //     if (this.cartItems[i].productId === product.id) {
-    //       this.cartItems[i].qty++          
-    //     } 
-    //     else {
-    //       this.cartItems.push({
-    //         productId : product.id,
-    //         productName : product.productName,
-    //         qty : 1,
-    //         price : product.productPrice
-    //       })
-    //     }
-    //     console.log(this.cartItems)
-    //   }
-    // }
-
-    // this.cartTotal = 0;
-    // this.cartItems.forEach(cartItem => {
-    //   this.cartTotal += (cartItem.qty * cartItem.price)
-   
-
+  
     localStorage.setItem('item', JSON.stringify(this.cartItems))
   }
 
   getItems() {
-    // return this.subject.asObservable()
     return localStorage.getItem('item')
   }
 
   removeItems(itemToRemove) {
-    // deleteLocalStorage(id, i ): void {
       var currentArray = JSON.parse(localStorage.getItem('item'));
-      var i = currentArray.productId;
-      for (i = 0; i < currentArray.length; ++i) {
+      // var i = currentArray.productId;
+      for (var i = 0; i < currentArray.length; ++i) {
         if (currentArray[i].productId === itemToRemove.productId) {
           currentArray.splice(i, 1) 
           localStorage.setItem('item', JSON.stringify(currentArray))
         }
-        else {
-          // this.cartItems.push({
-          //   productId : currentArray[i].productId,
-          //   productName : currentArray[i].productName,
-          //   qty : 1,
-          //   price : currentArray[i].productPrice,
-          // })
-          // insert other existing products to local storages
-          // localStorage.setItem('item', JSON.stringify(this.cartItems))
-          // localStorage.setItem('item', JSON.stringify(currentArray))
+      }
+      // return localStorage.getItem('item');
+  }
 
-          // this.sendItems(currentArray[i])
+  // increaseQty(productItem) {
+  //   var currentArray = JSON.parse(localStorage.getItem('item'));
+  //     var i = currentArray.productId;
+  //     for (i = 0; i < currentArray.length; ++i) {
+  //       if (currentArray[i].productId === productItem.productId) {
+  //         this.cartItems[i].qty++ 
+  //         localStorage.setItem('item', JSON.stringify(currentArray))
+  //       }
+  //     }
+  //     return localStorage.getItem('item');
+  // }
+
+  changeQty(cartItem) {
+    var currentArray = JSON.parse(localStorage.getItem('item'));
+      // var i = currentArray.productId;
+      for (var i = 0; i < currentArray.length; ++i) {
+        if (currentArray[i].productId === cartItem.productId) {
+          currentArray[i].qty = cartItem.qty
+          // this.getUpdatedCartTotal(cartItem);
+          // this.getCartTotal()
+          localStorage.setItem('item', JSON.stringify(currentArray))
         }
       }
+      return localStorage.getItem('item');
+      
   }
+
+  // getUpdatedCartTotal(cartItem) {
+    
+  //   this.cartTotal += cartItem.price
+  //   console.log(this.cartTotal + ' Updated cart total')
+  //   return this.cartTotal
+    
+  // }
+
+  // getCartTotal() {
+  //   console.log(this.cartTotal + ' cartTotal')
+  //   this.cartTotal = 0;
+  //     this.cartItems.forEach(cartItem => {
+  //       this.cartTotal += (cartItem.qty * cartItem.price)
+  //         console.log(this.cartTotal)
+  //       return this.cartTotal;
+  //    })
+  // }
+
+
+    
+  // decreaseQty(productItem) {
+  //   var currentArray = JSON.parse(localStorage.getItem('item'));
+  //     var i = currentArray.productId;
+  //     for (i = 0; i < currentArray.length; ++i) {
+  //       if (currentArray[i].productId === productItem.productId) {
+  //         this.cartItems[i].qty--
+  //         localStorage.setItem('item', JSON.stringify(currentArray))
+  //       }
+  //     }
+  //     return localStorage.getItem('item');
+  // }
+
 }
+
