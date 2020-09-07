@@ -1,0 +1,16 @@
+2020-09-06 23:58:56.247 +05:30 [INF] HTTP OPTIONS /api/category responded 204 in 118.0971 ms
+2020-09-06 23:59:02.281 +05:30 [WRN] No type was specified for the decimal column 'ProductPrice' on entity type 'Products'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-06 23:59:05.458 +05:30 [INF] HTTP OPTIONS /api/category responded 204 in 0.7445 ms
+2020-09-06 23:59:08.179 +05:30 [INF] Get categories completed.
+2020-09-06 23:59:08.179 +05:30 [INF] Get categories completed.
+2020-09-06 23:59:08.290 +05:30 [INF] HTTP GET /api/category responded 200 in 11603.9194 ms
+2020-09-06 23:59:08.290 +05:30 [INF] HTTP GET /api/category responded 200 in 2824.4902 ms
+2020-09-06 23:59:08.820 +05:30 [INF] Get categories completed.
+2020-09-06 23:59:08.822 +05:30 [INF] HTTP GET /api/category responded 200 in 47.0835 ms
+2020-09-06 23:59:16.254 +05:30 [INF] Get categories completed.
+2020-09-06 23:59:16.256 +05:30 [INF] HTTP GET /api/category responded 200 in 11.8076 ms
+2020-09-06 23:59:19.388 +05:30 [INF] HTTP GET /api/product/1 responded 200 in 1585.4976 ms
+2020-09-06 23:59:34.763 +05:30 [INF] Get categories completed.
+2020-09-06 23:59:34.764 +05:30 [INF] HTTP GET /api/category responded 200 in 11.2333 ms
+2020-09-06 23:59:36.474 +05:30 [INF] HTTP GET /api/product/3 responded 200 in 19.1991 ms
+2020-09-06 23:59:46.141 +05:30 [INF] HTTP GET /api/product/undefined responded 400 in 151.6962 ms

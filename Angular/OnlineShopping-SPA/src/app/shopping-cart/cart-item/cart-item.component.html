@@ -1,6 +1,7 @@
 <!-- <div class="cart-item"> -->
   <div id = "row">
   <div class="row">
+    {{returnProductName}}
     <div class="col-md-4">
         <span> {{ cartItem.productName }} </span>
         <br/>
@@ -11,8 +12,9 @@
       <span>
         <!-- <div class="def-number-input number-input safari_only"> -->
           <!-- <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus" style="background-color: red;" ></button> -->
+            <!-- <input min="1" name="qty" value="{{cartItem.qty}}" type="number" [ngModel]="cartItem.qty" (ngModelChange) ="changeQty($event)" style="width: 75px;"> -->
             <input min="1" name="qty" value="{{cartItem.qty}}" type="number" [(ngModel)]="cartItem.qty" style="width: 75px;">
-            {{changeQty(cartItem)}}
+            <!-- {{changeQty(cartItem)}} -->
           <!-- <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus" style="background-color:green;"></button> -->
           <!-- <button (click)="increment(cartItem)" class="plus" style="background-color:green;"></button> -->
 
@@ -20,6 +22,7 @@
         </span>
     </div>
 
+    <!-- {{cartItem.qty}} from html child -->
     <!-- qty of an item -->
     <div class="col-md-3">
       <strong> {{ cartItem.qty * cartItem.price | currency:'USD'}} </strong>

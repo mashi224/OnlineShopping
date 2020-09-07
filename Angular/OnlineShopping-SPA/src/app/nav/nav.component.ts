@@ -1,6 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { AuthService } from '../_services/auth.service';
 import { AlertifyService } from '../_services/alertify.service';
+import { CartItemsService } from '../_services/cart-items.service';
+import { Subscription } from 'rxjs';
+import { Product } from '../_models/product';
 // import { NgForm } from '@angular/forms';
 // import { FormsModule } from '@angular/forms';
 
@@ -13,12 +16,24 @@ export class NavComponent implements OnInit {
   model: any = {};
   registerMode = false;
   cartItemsCount: number;
+  subscription: Subscription;
 
-  constructor(public authService: AuthService, private alertify: AlertifyService) { }
+  constructor(private authService: AuthService, private alertify: AlertifyService, private cartItemsService: CartItemsService) { }
 
   ngOnInit() {
-    if('item' in localStorage)
-      this.cartItemsCount = JSON.parse(localStorage.item).length;
+      
+      this.subscription = this.cartItemsService.cartItemSubject
+                            .subscribe((product: Product[]) => {
+                            this.cartItemsCount = product.length;
+      });
+
+      if('item' in localStorage) {
+        this.cartItemsCount = this.cartItemsService.cartItemCount();
+      }
+  }
+
+  ngOnDestroy() {
+    this.subscription.unsubscribe();
   }
 
   login() {
