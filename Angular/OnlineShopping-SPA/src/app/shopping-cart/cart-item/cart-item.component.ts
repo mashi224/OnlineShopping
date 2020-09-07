@@ -1,5 +1,8 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { CartItemsService } from 'src/app/_services/cart-items.service';
+import { BehaviorSubject } from 'rxjs';
+import { Subscription } from 'rxjs';
+import { Product } from 'src/app/_models/product';
 
 @Component({
   selector: 'app-cart-item',
@@ -8,26 +11,29 @@ import { CartItemsService } from 'src/app/_services/cart-items.service';
 })
 export class CartItemComponent implements OnInit {
 @Input() cartItem: {};
-@Input() cartTotal: number;
-// @Output() updatedCartTotal = new EventEmitter();
-// @Input() qty;
+// @Input() cartTotal: number;
 
   constructor( private cartItemsService: CartItemsService ) { }
-  cartItems = [];
-  // cartTotal: number;
+  // cartItems = [];
+  // result: any;
+  // subscription: Subscription;
 
   ngOnInit() { 
+    // this.subscription = this.cartItemsService.cartItemSubject
+    //                       .subscribe((product: Product[]) => {
+    //                         this.cartItem = product;
+    //                       });
   } 
 
   removeItem(cartItem) {
     this.cartItemsService.removeItems(this.cartItem);
-    this.cartItemsService.getItems();
+    // this.cartItemsService.getItems();
 
     // var itemToRemove = document.getElementById("row");
     // itemToRemove.parentNode.removeChild(itemToRemove);
     // itemToRemove.removeChild(cartItem.childNodes[0]);
 
-    location.reload();
+    // location.reload();
 
     // $scope.remove = function(item) { 
     //   var index = $scope.bdays.indexOf(item);
@@ -35,8 +41,11 @@ export class CartItemComponent implements OnInit {
     // }
   }
 
+  
+
+
   changeQty(cartItem) {
-    console.log('changeQty')
+    console.log('changeQty' + cartItem)
     this.cartItemsService.changeQty(cartItem);
     // this.getUpdatedCartTotal();
     
