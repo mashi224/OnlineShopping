@@ -12,8 +12,8 @@
       <span>
         <!-- <div class="def-number-input number-input safari_only"> -->
           <!-- <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus" style="background-color: red;" ></button> -->
-            <!-- <input min="1" name="qty" value="{{cartItem.qty}}" type="number" [ngModel]="cartItem.qty" (ngModelChange) ="changeQty($event)" style="width: 75px;"> -->
-            <input min="1" name="qty" value="{{cartItem.qty}}" type="number" [(ngModel)]="cartItem.qty" style="width: 75px;">
+            <input min="1" name="qty" type="number" [ngModel]="cartItem.qty" (ngModelChange) ="changeQty($event)" style="width: 75px;">
+            <!-- <input min="1" name="qty" value="{{cartItem.qty}}" type="number" [(ngModel)]="cartItem.qty" style="width: 75px;"> -->
             <!-- {{changeQty(cartItem)}} -->
           <!-- <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus" style="background-color:green;"></button> -->
           <!-- <button (click)="increment(cartItem)" class="plus" style="background-color:green;"></button> -->

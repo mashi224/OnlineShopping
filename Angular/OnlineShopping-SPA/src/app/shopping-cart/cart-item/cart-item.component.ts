@@ -10,7 +10,7 @@ import { Product } from 'src/app/_models/product';
   styleUrls: ['./cart-item.component.css']
 })
 export class CartItemComponent implements OnInit {
-@Input() cartItem: {};
+@Input() cartItem: any;
 // @Input() cartTotal: number;
 
   constructor( private cartItemsService: CartItemsService ) { }
@@ -44,9 +44,10 @@ export class CartItemComponent implements OnInit {
   
 
 
-  changeQty(cartItem) {
-    console.log('changeQty' + cartItem)
-    this.cartItemsService.changeQty(cartItem);
+  changeQty(x) {
+    console.log('changeQty' + x)
+    this.cartItem.qty = parseInt(x);
+    this.cartItemsService.changeQty(this.cartItem);
     // this.getUpdatedCartTotal();
     
   }
