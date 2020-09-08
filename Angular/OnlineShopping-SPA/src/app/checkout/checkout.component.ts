@@ -24,8 +24,8 @@ export class CheckoutComponent implements OnInit {
   ngOnInit() {
     this.cartItemsCount = JSON.parse(localStorage.item).length;
       console.log(this.cartItemsCount + ' cartItems count')
-    // this.cartItems = JSON.parse(this.cartItemsService.getItems())
-    this.cartItemsService.getItems();
+
+    this.cartItems = this.cartItemsService.getItems();
     this.getCartTotal();
   }
 
