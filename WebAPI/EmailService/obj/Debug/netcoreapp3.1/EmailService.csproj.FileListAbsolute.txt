@@ -1,0 +1,9 @@
+C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\EmailService\bin\Debug\netcoreapp3.1\EmailService.deps.json
+C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\EmailService\bin\Debug\netcoreapp3.1\EmailService.dll
+C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\EmailService\bin\Debug\netcoreapp3.1\EmailService.pdb
+C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\EmailService\obj\Debug\netcoreapp3.1\EmailService.csprojAssemblyReference.cache
+C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\EmailService\obj\Debug\netcoreapp3.1\EmailService.AssemblyInfoInputs.cache
+C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\EmailService\obj\Debug\netcoreapp3.1\EmailService.AssemblyInfo.cs
+C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\EmailService\obj\Debug\netcoreapp3.1\EmailService.csproj.CoreCompileInputs.cache
+C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\EmailService\obj\Debug\netcoreapp3.1\EmailService.dll
+C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\EmailService\obj\Debug\netcoreapp3.1\EmailService.pdb

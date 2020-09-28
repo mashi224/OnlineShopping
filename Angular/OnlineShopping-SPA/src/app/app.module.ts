@@ -27,6 +27,8 @@ import { FiltersComponent } from '../app/product/filters/filters.component';
 import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
 import { CartItemComponent } from './shopping-cart/cart-item/cart-item.component';
 import { CheckoutComponent } from './checkout/checkout.component';
+import { PaymentComponent } from './payment/payment.component';
+import { OrderHistoryComponent } from './order-history/order-history.component';
 
 export function tokenGetter() {
    return localStorage.getItem('token');
@@ -45,7 +47,9 @@ export function tokenGetter() {
       FiltersComponent,
       ShoppingCartComponent,
       CartItemComponent,
-      CheckoutComponent
+      CheckoutComponent,
+      PaymentComponent,
+      OrderHistoryComponent
    ],
    imports: [
       BrowserModule,

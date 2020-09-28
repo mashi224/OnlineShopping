@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mashi\\GitHub\\OnlineShopping\\WebAPI\\AutumnStore.Data\\AutumnStore.Data.csproj": {}
+    "C:\\Users\\Thamasha\\GitHub\\OnlineShopping\\WebAPI\\AutumnStore.Data\\AutumnStore.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mashi\\GitHub\\OnlineShopping\\WebAPI\\AutumnStore.Data\\AutumnStore.Data.csproj": {
+    "C:\\Users\\Thamasha\\GitHub\\OnlineShopping\\WebAPI\\AutumnStore.Data\\AutumnStore.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mashi\\GitHub\\OnlineShopping\\WebAPI\\AutumnStore.Data\\AutumnStore.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Thamasha\\GitHub\\OnlineShopping\\WebAPI\\AutumnStore.Data\\AutumnStore.Data.csproj",
         "projectName": "AutumnStore.Data",
-        "projectPath": "C:\\Users\\Mashi\\GitHub\\OnlineShopping\\WebAPI\\AutumnStore.Data\\AutumnStore.Data.csproj",
-        "packagesPath": "C:\\Users\\Mashi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mashi\\GitHub\\OnlineShopping\\WebAPI\\AutumnStore.Data\\obj\\",
+        "projectPath": "C:\\Users\\Thamasha\\GitHub\\OnlineShopping\\WebAPI\\AutumnStore.Data\\AutumnStore.Data.csproj",
+        "packagesPath": "C:\\Users\\Thamasha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Thamasha\\GitHub\\OnlineShopping\\WebAPI\\AutumnStore.Data\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Mashi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Thamasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -31,8 +27,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Mashi\\GitHub\\OnlineShopping\\WebAPI\\AutumnStore.Entity\\AutumnStore.Entity.csproj": {
-                "projectPath": "C:\\Users\\Mashi\\GitHub\\OnlineShopping\\WebAPI\\AutumnStore.Entity\\AutumnStore.Entity.csproj"
+              "C:\\Users\\Thamasha\\GitHub\\OnlineShopping\\WebAPI\\AutumnStore.Entity\\AutumnStore.Entity.csproj": {
+                "projectPath": "C:\\Users\\Thamasha\\GitHub\\OnlineShopping\\WebAPI\\AutumnStore.Entity\\AutumnStore.Entity.csproj"
               }
             }
           }
@@ -97,26 +93,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Mashi\\GitHub\\OnlineShopping\\WebAPI\\AutumnStore.Entity\\AutumnStore.Entity.csproj": {
+    "C:\\Users\\Thamasha\\GitHub\\OnlineShopping\\WebAPI\\AutumnStore.Entity\\AutumnStore.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mashi\\GitHub\\OnlineShopping\\WebAPI\\AutumnStore.Entity\\AutumnStore.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\Thamasha\\GitHub\\OnlineShopping\\WebAPI\\AutumnStore.Entity\\AutumnStore.Entity.csproj",
         "projectName": "AutumnStore.Entity",
-        "projectPath": "C:\\Users\\Mashi\\GitHub\\OnlineShopping\\WebAPI\\AutumnStore.Entity\\AutumnStore.Entity.csproj",
-        "packagesPath": "C:\\Users\\Mashi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mashi\\GitHub\\OnlineShopping\\WebAPI\\AutumnStore.Entity\\obj\\",
+        "projectPath": "C:\\Users\\Thamasha\\GitHub\\OnlineShopping\\WebAPI\\AutumnStore.Entity\\AutumnStore.Entity.csproj",
+        "packagesPath": "C:\\Users\\Thamasha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Thamasha\\GitHub\\OnlineShopping\\WebAPI\\AutumnStore.Entity\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Mashi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Thamasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -182,7 +174,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

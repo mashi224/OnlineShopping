@@ -23,7 +23,7 @@ namespace AutumnStore.Test.Business
             List<ProductDto> productList = new List<ProductDto>();
             productDto = new ProductDto()
             {
-                Id = 1,
+                ProductId = 1,
                 ProductName = "WASSILY CHAIR"
             };
 

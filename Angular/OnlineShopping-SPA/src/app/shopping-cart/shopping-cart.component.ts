@@ -20,7 +20,6 @@ export class ShoppingCartComponent implements OnInit {
     // this.cartItems = JSON.parse(this.cartItemsService.getItems());
 
     // this.cartItems = this.cartItemsService.getItems();
-    
       this.subscription = this.cartItemsService.cartItemSubject
                             .subscribe((product: Product[]) => {
                               this.cartItems = product;
@@ -46,9 +45,9 @@ export class ShoppingCartComponent implements OnInit {
       console.log(this.cartTotal);
   }
 
-  ngOnDestroy() {
-    this.subscription.unsubscribe();
-  }
+    ngOnDestroy() {
+      this.subscription.unsubscribe();
+    }
 
     // getCartTotal() {
     //   this.cartTotal = 0;

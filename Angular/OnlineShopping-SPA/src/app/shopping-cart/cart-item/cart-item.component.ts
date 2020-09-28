@@ -45,11 +45,11 @@ export class CartItemComponent implements OnInit {
 
 
   changeQty(x) {
-    console.log('changeQty' + x)
+    console.log('changeQty' + x);
     this.cartItem.qty = parseInt(x);
     this.cartItemsService.changeQty(this.cartItem);
     // this.getUpdatedCartTotal();
-    
+
   }
 
   // getUpdatedCartTotal() {

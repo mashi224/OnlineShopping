@@ -22,6 +22,7 @@
   <ItemGroup>
     <ProjectReference Include="..\AutumnStore.Data\AutumnStore.Data.csproj" />
     <ProjectReference Include="..\AutumnStore.Entity\AutumnStore.Entity.csproj" />
+    <ProjectReference Include="..\EmailService\EmailService.csproj" />
   </ItemGroup>
 
 </Project>

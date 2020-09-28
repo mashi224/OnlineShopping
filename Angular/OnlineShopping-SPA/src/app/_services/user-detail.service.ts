@@ -9,12 +9,12 @@ import { environment } from 'src/environments/environment';
 })
 export class UserDetailService {
   baseUrl = environment.apiUrl + 'payment/';
-  currentUserId :number;
+  currentUserId: number;
 
   constructor(private http: HttpClient) { }
 
   getBilingUser(): Observable<User> {
-    console.log('worked!' + this.currentUserId)
+    console.log('worked!' + this.currentUserId);
     return this.http.get<User>(this.baseUrl + 'billingUser/' + this.currentUserId);
   }
 }

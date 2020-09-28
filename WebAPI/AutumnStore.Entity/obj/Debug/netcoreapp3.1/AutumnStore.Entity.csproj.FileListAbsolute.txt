@@ -10,3 +10,15 @@ C:\Users\Mashi\GitHub\OnlineShopping\WebAPI\AutumnStore.Entity\obj\Debug\netcore
 C:\Users\Mashi\GitHub\OnlineShopping\WebAPI\AutumnStore.Entity\obj\Debug\netcoreapp3.1\AutumnStore.Entity.dll
 C:\Users\Mashi\GitHub\OnlineShopping\WebAPI\AutumnStore.Entity\obj\Debug\netcoreapp3.1\AutumnStore.Entity.pdb
 C:\Users\Mashi\GitHub\OnlineShopping\WebAPI\AutumnStore.Entity\obj\Debug\netcoreapp3.1\AutumnStore.Entity.genruntimeconfig.cache
+C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\AutumnStore.Entity\bin\Debug\netcoreapp3.1\AutumnStore.Entity.deps.json
+C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\AutumnStore.Entity\bin\Debug\netcoreapp3.1\AutumnStore.Entity.runtimeconfig.json
+C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\AutumnStore.Entity\bin\Debug\netcoreapp3.1\AutumnStore.Entity.runtimeconfig.dev.json
+C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\AutumnStore.Entity\bin\Debug\netcoreapp3.1\AutumnStore.Entity.dll
+C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\AutumnStore.Entity\bin\Debug\netcoreapp3.1\AutumnStore.Entity.pdb
+C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\AutumnStore.Entity\obj\Debug\netcoreapp3.1\AutumnStore.Entity.csprojAssemblyReference.cache
+C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\AutumnStore.Entity\obj\Debug\netcoreapp3.1\AutumnStore.Entity.AssemblyInfoInputs.cache
+C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\AutumnStore.Entity\obj\Debug\netcoreapp3.1\AutumnStore.Entity.AssemblyInfo.cs
+C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\AutumnStore.Entity\obj\Debug\netcoreapp3.1\AutumnStore.Entity.csproj.CoreCompileInputs.cache
+C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\AutumnStore.Entity\obj\Debug\netcoreapp3.1\AutumnStore.Entity.dll
+C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\AutumnStore.Entity\obj\Debug\netcoreapp3.1\AutumnStore.Entity.pdb
+C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\AutumnStore.Entity\obj\Debug\netcoreapp3.1\AutumnStore.Entity.genruntimeconfig.cache

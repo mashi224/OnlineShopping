@@ -1,0 +1,389 @@
+2020-09-11 11:34:58.831 +05:30 [WRN] No type was specified for the decimal column 'OrderTotal' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-11 11:34:58.977 +05:30 [WRN] No type was specified for the decimal column 'ProductPrice' on entity type 'OrderProduct'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-11 11:34:58.980 +05:30 [WRN] No type was specified for the decimal column 'ProductPrice' on entity type 'Products'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-11 11:35:00.771 +05:30 [INF] HTTP POST /api/Payment/completePayment responded 201 in 4634.7475 ms
+2020-09-11 15:43:15.812 +05:30 [ERR] HTTP POST /api/Payment/completePayment responded 500 in 1645.4689 ms
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+OrderDetailsDto -> Order
+AutumnStore.Entity.OrderDetailsDto -> AutumnStore.Data.Model.Order
+
+Type Map configuration:
+OrderDetailsDto -> Order
+AutumnStore.Entity.OrderDetailsDto -> AutumnStore.Data.Model.Order
+
+Destination Member:
+OrderProduct
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+OrderedProductsDto -> List`1
+AutumnStore.Entity.OrderedProductsDto -> System.Collections.Generic.List`1[[AutumnStore.Data.Model.OrderProduct, AutumnStore.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+   at lambda_method(Closure , OrderedProductsDto , List`1 , ResolutionContext )
+   at lambda_method(Closure , Object , Order , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method(Closure , Object , Order , ResolutionContext )
+   at AutumnStore.Data.Repository.PaymentRepository.CompletePayment(OrderDetailsDto orderDetailsDto, DateTime localDateTime) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\AutumnStore.Data\Repository\PaymentRepository.cs:line 33
+   at AutumnStore.Business.PaymentManagement.CompletePayment(OrderDetailsDto orderDetailsDto) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\AutumnStore.Business\PaymentManagement.cs:line 26
+   at AutumnStore.Controller.PaymentController.CompletePayment(OrderDetailsDto orderDetailsDto) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\AutumnStore.Controller\PaymentController.cs:line 36
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2020-09-11 15:43:16.115 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+OrderDetailsDto -> Order
+AutumnStore.Entity.OrderDetailsDto -> AutumnStore.Data.Model.Order
+
+Type Map configuration:
+OrderDetailsDto -> Order
+AutumnStore.Entity.OrderDetailsDto -> AutumnStore.Data.Model.Order
+
+Destination Member:
+OrderProduct
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+OrderedProductsDto -> List`1
+AutumnStore.Entity.OrderedProductsDto -> System.Collections.Generic.List`1[[AutumnStore.Data.Model.OrderProduct, AutumnStore.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+   at lambda_method(Closure , OrderedProductsDto , List`1 , ResolutionContext )
+   at lambda_method(Closure , Object , Order , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method(Closure , Object , Order , ResolutionContext )
+   at AutumnStore.Data.Repository.PaymentRepository.CompletePayment(OrderDetailsDto orderDetailsDto, DateTime localDateTime) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\AutumnStore.Data\Repository\PaymentRepository.cs:line 33
+   at AutumnStore.Business.PaymentManagement.CompletePayment(OrderDetailsDto orderDetailsDto) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\AutumnStore.Business\PaymentManagement.cs:line 26
+   at AutumnStore.Controller.PaymentController.CompletePayment(OrderDetailsDto orderDetailsDto) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\AutumnStore.Controller\PaymentController.cs:line 36
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-09-11 15:48:28.142 +05:30 [ERR] HTTP POST /api/Payment/completePayment responded 500 in 1541.7593 ms
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> Order
+System.Object -> AutumnStore.Data.Model.Order
+   at lambda_method(Closure , Object , Order , ResolutionContext )
+   at AutumnStore.Data.Repository.PaymentRepository.CompletePayment(OrderDetailsDto orderDetailsDto, DateTime localDateTime) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\AutumnStore.Data\Repository\PaymentRepository.cs:line 33
+   at AutumnStore.Business.PaymentManagement.CompletePayment(OrderDetailsDto orderDetailsDto) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\AutumnStore.Business\PaymentManagement.cs:line 26
+   at AutumnStore.Controller.PaymentController.CompletePayment(OrderDetailsDto orderDetailsDto) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\AutumnStore.Controller\PaymentController.cs:line 36
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2020-09-11 15:48:28.403 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> Order
+System.Object -> AutumnStore.Data.Model.Order
+   at lambda_method(Closure , Object , Order , ResolutionContext )
+   at AutumnStore.Data.Repository.PaymentRepository.CompletePayment(OrderDetailsDto orderDetailsDto, DateTime localDateTime) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\AutumnStore.Data\Repository\PaymentRepository.cs:line 33
+   at AutumnStore.Business.PaymentManagement.CompletePayment(OrderDetailsDto orderDetailsDto) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\AutumnStore.Business\PaymentManagement.cs:line 26
+   at AutumnStore.Controller.PaymentController.CompletePayment(OrderDetailsDto orderDetailsDto) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\AutumnStore.Controller\PaymentController.cs:line 36
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-09-11 16:13:02.541 +05:30 [INF] HTTP POST /api/Payment/completePayment responded 400 in 1399.8941 ms
+2020-09-11 16:13:43.279 +05:30 [INF] HTTP POST /api/Payment/completePayment responded 400 in 33.4168 ms
+2020-09-11 16:14:08.861 +05:30 [WRN] No type was specified for the decimal column 'OrderTotal' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-11 16:14:08.870 +05:30 [WRN] No type was specified for the decimal column 'ProductPrice' on entity type 'OrderProduct'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-11 16:14:08.871 +05:30 [WRN] No type was specified for the decimal column 'ProductPrice' on entity type 'Products'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-11 16:14:10.924 +05:30 [INF] HTTP POST /api/Payment/completePayment responded 201 in 3596.7562 ms
+2020-09-11 16:19:55.089 +05:30 [INF] HTTP OPTIONS /api/payment/billingUser/14 responded 204 in 89.5118 ms
+2020-09-11 16:19:57.920 +05:30 [WRN] No type was specified for the decimal column 'OrderTotal' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-11 16:19:57.929 +05:30 [WRN] No type was specified for the decimal column 'ProductPrice' on entity type 'OrderProduct'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-11 16:19:57.929 +05:30 [WRN] No type was specified for the decimal column 'ProductPrice' on entity type 'Products'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-11 16:19:59.609 +05:30 [INF] Get existing user details completed
+2020-09-11 16:19:59.661 +05:30 [INF] HTTP GET /api/payment/billingUser/14 responded 200 in 4400.0829 ms
+2020-09-11 16:20:07.976 +05:30 [INF] HTTP OPTIONS /api/payment/billingUser/14 responded 204 in 2.1513 ms
+2020-09-11 16:20:08.106 +05:30 [INF] Get existing user details completed
+2020-09-11 16:20:08.108 +05:30 [INF] HTTP GET /api/payment/billingUser/14 responded 200 in 114.8474 ms
+2020-09-11 16:20:30.462 +05:30 [INF] HTTP OPTIONS /api/payment/billingUser/14 responded 204 in 1.1518 ms
+2020-09-11 16:20:30.557 +05:30 [INF] Get existing user details completed
+2020-09-11 16:20:30.562 +05:30 [INF] HTTP GET /api/payment/billingUser/14 responded 200 in 57.3848 ms
+2020-09-11 16:29:25.836 +05:30 [INF] HTTP OPTIONS /api/payment/billingUser/14 responded 204 in 7.8787 ms
+2020-09-11 16:29:26.045 +05:30 [INF] Get existing user details completed
+2020-09-11 16:29:26.053 +05:30 [INF] HTTP GET /api/payment/billingUser/14 responded 200 in 188.0738 ms
+2020-09-11 16:30:00.288 +05:30 [INF] HTTP OPTIONS /api/payment/billingUser/14 responded 204 in 0.9107 ms
+2020-09-11 16:30:00.345 +05:30 [INF] Get existing user details completed
+2020-09-11 16:30:00.349 +05:30 [INF] HTTP GET /api/payment/billingUser/14 responded 200 in 53.2700 ms
+2020-09-11 16:31:17.885 +05:30 [INF] HTTP OPTIONS /api/payment/billingUser/14 responded 204 in 1.9962 ms
+2020-09-11 16:31:17.971 +05:30 [INF] Get existing user details completed
+2020-09-11 16:31:17.973 +05:30 [INF] HTTP GET /api/payment/billingUser/14 responded 200 in 63.8479 ms
+2020-09-11 16:33:22.004 +05:30 [INF] HTTP OPTIONS /api/payment/billingUser/14 responded 204 in 3.2146 ms
+2020-09-11 16:33:22.116 +05:30 [INF] Get existing user details completed
+2020-09-11 16:33:22.120 +05:30 [INF] HTTP GET /api/payment/billingUser/14 responded 200 in 77.1534 ms
+2020-09-11 16:34:46.538 +05:30 [INF] HTTP OPTIONS /api/payment/billingUser/14 responded 204 in 1.4470 ms
+2020-09-11 16:34:46.639 +05:30 [INF] Get existing user details completed
+2020-09-11 16:34:46.643 +05:30 [INF] HTTP GET /api/payment/billingUser/14 responded 200 in 57.6970 ms
+2020-09-11 16:38:25.040 +05:30 [INF] HTTP OPTIONS /api/payment/billingUser/14 responded 204 in 3.8042 ms
+2020-09-11 16:38:25.214 +05:30 [INF] Get existing user details completed
+2020-09-11 16:38:25.219 +05:30 [INF] HTTP GET /api/payment/billingUser/14 responded 200 in 134.6207 ms
+2020-09-11 16:39:20.097 +05:30 [INF] HTTP OPTIONS /api/payment/billingUser/14 responded 204 in 1.1356 ms
+2020-09-11 16:39:20.145 +05:30 [INF] Get existing user details completed
+2020-09-11 16:39:20.160 +05:30 [INF] HTTP GET /api/payment/billingUser/14 responded 200 in 33.1928 ms
+2020-09-11 16:41:56.334 +05:30 [INF] HTTP OPTIONS /api/payment/billingUser/14 responded 204 in 7.1494 ms
+2020-09-11 16:41:56.365 +05:30 [INF] Get existing user details completed
+2020-09-11 16:41:56.368 +05:30 [INF] HTTP GET /api/payment/billingUser/14 responded 200 in 21.0375 ms
+2020-09-11 16:42:13.702 +05:30 [INF] HTTP OPTIONS /api/payment/billingUser/14 responded 204 in 0.6903 ms
+2020-09-11 16:42:13.753 +05:30 [INF] Get existing user details completed
+2020-09-11 16:42:13.768 +05:30 [INF] HTTP GET /api/payment/billingUser/14 responded 200 in 38.4341 ms
+2020-09-11 16:45:51.954 +05:30 [INF] HTTP OPTIONS /api/payment/billingUser/[object%20Object] responded 204 in 7.7219 ms
+2020-09-11 16:45:52.135 +05:30 [INF] HTTP GET /api/payment/billingUser/[object%20Object] responded 400 in 169.6571 ms
+2020-09-11 16:46:55.029 +05:30 [INF] HTTP OPTIONS /api/payment/billingUser/14 responded 204 in 8.1155 ms
+2020-09-11 16:46:55.212 +05:30 [INF] Get existing user details completed
+2020-09-11 16:46:55.218 +05:30 [INF] HTTP GET /api/payment/billingUser/14 responded 200 in 168.0891 ms
+2020-09-11 16:47:30.236 +05:30 [INF] HTTP OPTIONS /api/auth/login responded 204 in 2.4210 ms
+2020-09-11 16:48:26.187 +05:30 [ERR] HTTP POST /api/auth/login responded 500 in 55926.7490 ms
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at AutumnStore.Business.AuthManagement.Login(UserForLoginDto userForLoginDto) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\AutumnStore.Business\AuthManagement.cs:line 34
+   at AutumnStore.Controller.AuthController.Login(UserForLoginDto userForLoginDto) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\AutumnStore.Controller\AuthController.cs:line 36
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2020-09-11 16:48:26.615 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at AutumnStore.Business.AuthManagement.Login(UserForLoginDto userForLoginDto) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\AutumnStore.Business\AuthManagement.cs:line 34
+   at AutumnStore.Controller.AuthController.Login(UserForLoginDto userForLoginDto) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\AutumnStore.Controller\AuthController.cs:line 36
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-09-11 16:50:38.842 +05:30 [INF] HTTP OPTIONS /api/auth/login responded 204 in 0.3502 ms
+2020-09-11 16:51:13.963 +05:30 [ERR] HTTP POST /api/auth/login responded 500 in 35093.8373 ms
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at AutumnStore.Business.AuthManagement.Login(UserForLoginDto userForLoginDto) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\AutumnStore.Business\AuthManagement.cs:line 34
+   at AutumnStore.Controller.AuthController.Login(UserForLoginDto userForLoginDto) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\AutumnStore.Controller\AuthController.cs:line 36
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2020-09-11 16:51:13.966 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at AutumnStore.Business.AuthManagement.Login(UserForLoginDto userForLoginDto) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\AutumnStore.Business\AuthManagement.cs:line 34
+   at AutumnStore.Controller.AuthController.Login(UserForLoginDto userForLoginDto) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\AutumnStore.Controller\AuthController.cs:line 36
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-09-11 16:52:22.998 +05:30 [INF] HTTP OPTIONS /api/auth/register responded 204 in 0.3602 ms
+2020-09-11 16:52:23.775 +05:30 [INF] HTTP POST /api/auth/register responded 201 in 749.4017 ms
+2020-09-11 16:52:34.102 +05:30 [INF] HTTP OPTIONS /api/auth/login responded 204 in 0.2022 ms
+2020-09-11 17:05:55.603 +05:30 [INF] HTTP OPTIONS /api/auth/login responded 204 in 71.5495 ms
+2020-09-11 17:05:58.342 +05:30 [WRN] No type was specified for the decimal column 'OrderTotal' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-11 17:05:58.350 +05:30 [WRN] No type was specified for the decimal column 'ProductPrice' on entity type 'OrderProduct'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-11 17:05:58.351 +05:30 [WRN] No type was specified for the decimal column 'ProductPrice' on entity type 'Products'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-11 17:06:00.575 +05:30 [INF] HTTP POST /api/auth/login responded 200 in 4829.7355 ms
+2020-09-11 17:07:43.850 +05:30 [INF] HTTP OPTIONS /api/auth/login responded 204 in 1.0425 ms
+2020-09-11 17:07:43.950 +05:30 [INF] HTTP POST /api/auth/login responded 200 in 89.6245 ms
+2020-09-11 17:07:53.109 +05:30 [INF] HTTP OPTIONS /api/payment/billingUser/15 responded 204 in 4.0778 ms
+2020-09-11 17:07:53.379 +05:30 [INF] Get existing user details completed
+2020-09-11 17:07:53.391 +05:30 [INF] HTTP GET /api/payment/billingUser/15 responded 200 in 264.2002 ms
+2020-09-11 17:24:28.036 +05:30 [INF] HTTP OPTIONS /api/payment/billingUser/15 responded 204 in 15.3911 ms
+2020-09-11 17:24:29.258 +05:30 [INF] Get existing user details completed
+2020-09-11 17:24:29.270 +05:30 [INF] HTTP GET /api/payment/billingUser/15 responded 200 in 1195.8324 ms
+2020-09-11 17:25:05.393 +05:30 [INF] HTTP OPTIONS /api/payment/billingUser/15 responded 204 in 1.0435 ms
+2020-09-11 17:25:05.511 +05:30 [INF] Get existing user details completed
+2020-09-11 17:25:05.517 +05:30 [INF] HTTP GET /api/payment/billingUser/15 responded 200 in 94.2079 ms
+2020-09-11 17:27:21.809 +05:30 [INF] HTTP OPTIONS /api/payment/billingUser/15 responded 204 in 6.0956 ms
+2020-09-11 17:27:21.958 +05:30 [INF] Get existing user details completed
+2020-09-11 17:27:21.963 +05:30 [INF] HTTP GET /api/payment/billingUser/15 responded 200 in 118.0683 ms
+2020-09-11 17:31:26.331 +05:30 [INF] HTTP OPTIONS /api/payment/billingUser/15 responded 204 in 1.4253 ms
+2020-09-11 17:31:26.479 +05:30 [INF] Get existing user details completed
+2020-09-11 17:31:26.481 +05:30 [INF] HTTP GET /api/payment/billingUser/15 responded 200 in 89.3368 ms
+2020-09-11 17:33:37.502 +05:30 [INF] HTTP OPTIONS /api/payment/billingUser/15 responded 204 in 11.2133 ms
+2020-09-11 17:33:37.554 +05:30 [INF] Get existing user details completed
+2020-09-11 17:33:37.557 +05:30 [INF] HTTP GET /api/payment/billingUser/15 responded 200 in 24.1505 ms
+2020-09-11 17:36:50.175 +05:30 [INF] HTTP OPTIONS /api/payment/billingUser/15 responded 204 in 7.7471 ms
+2020-09-11 17:36:50.222 +05:30 [INF] Get existing user details completed
+2020-09-11 17:36:50.230 +05:30 [INF] HTTP GET /api/payment/billingUser/15 responded 200 in 30.7697 ms
+2020-09-11 17:37:09.685 +05:30 [INF] HTTP OPTIONS /api/payment/billingUser/15 responded 204 in 0.3915 ms
+2020-09-11 17:37:09.721 +05:30 [INF] Get existing user details completed
+2020-09-11 17:37:09.723 +05:30 [INF] HTTP GET /api/payment/billingUser/15 responded 200 in 20.6221 ms
+2020-09-11 17:48:18.034 +05:30 [INF] HTTP OPTIONS /api/payment/billingUser/15 responded 204 in 18.7928 ms
+2020-09-11 17:48:18.326 +05:30 [INF] Get existing user details completed
+2020-09-11 17:48:18.331 +05:30 [INF] HTTP GET /api/payment/billingUser/15 responded 200 in 242.9538 ms
+2020-09-11 17:49:32.687 +05:30 [INF] HTTP OPTIONS /api/payment/billingUser/15 responded 204 in 3.3204 ms
+2020-09-11 17:49:32.832 +05:30 [INF] Get existing user details completed
+2020-09-11 17:49:32.844 +05:30 [INF] HTTP GET /api/payment/billingUser/15 responded 200 in 133.5356 ms
+2020-09-11 18:20:06.800 +05:30 [INF] HTTP OPTIONS /api/payment/billingUser/15 responded 204 in 8.5113 ms
+2020-09-11 18:20:07.832 +05:30 [INF] Get existing user details completed
+2020-09-11 18:20:07.843 +05:30 [INF] HTTP GET /api/payment/billingUser/15 responded 200 in 1018.7674 ms
+2020-09-11 18:28:32.899 +05:30 [INF] HTTP OPTIONS /api/payment/billingUser/15 responded 204 in 16.7597 ms
+2020-09-11 18:28:34.227 +05:30 [INF] Get existing user details completed
+2020-09-11 18:28:34.239 +05:30 [INF] HTTP GET /api/payment/billingUser/15 responded 200 in 1302.7978 ms
+2020-09-11 18:32:40.761 +05:30 [INF] HTTP OPTIONS /api/payment/billingUser/15 responded 204 in 4.3411 ms
+2020-09-11 18:32:41.047 +05:30 [INF] Get existing user details completed
+2020-09-11 18:32:41.051 +05:30 [INF] HTTP GET /api/payment/billingUser/15 responded 200 in 268.7614 ms
+2020-09-11 18:33:18.485 +05:30 [INF] HTTP OPTIONS /api/payment/billingUser/15 responded 204 in 0.5686 ms
+2020-09-11 18:33:18.550 +05:30 [INF] Get existing user details completed
+2020-09-11 18:33:18.554 +05:30 [INF] HTTP GET /api/payment/billingUser/15 responded 200 in 34.4702 ms
+2020-09-11 18:33:38.336 +05:30 [INF] HTTP OPTIONS /api/payment/billingUser/15 responded 204 in 1.5639 ms
+2020-09-11 18:33:38.379 +05:30 [INF] Get existing user details completed
+2020-09-11 18:33:38.381 +05:30 [INF] HTTP GET /api/payment/billingUser/15 responded 200 in 22.3635 ms
+2020-09-11 18:33:39.493 +05:30 [INF] HTTP OPTIONS /api/payment/completePayment responded 204 in 1.1000 ms
+2020-09-11 18:33:40.476 +05:30 [INF] HTTP POST /api/payment/completePayment responded 201 in 976.5456 ms
+2020-09-11 18:39:33.910 +05:30 [INF] HTTP OPTIONS /api/payment/billingUser/15 responded 204 in 0.3878 ms
+2020-09-11 18:39:34.646 +05:30 [INF] Get existing user details completed
+2020-09-11 18:39:34.648 +05:30 [INF] HTTP GET /api/payment/billingUser/15 responded 200 in 706.4783 ms
+2020-09-11 20:51:19.706 +05:30 [INF] HTTP OPTIONS /api/payment/billingUser/15 responded 204 in 40.6855 ms
+2020-09-11 20:51:21.168 +05:30 [WRN] No type was specified for the decimal column 'OrderTotal' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-11 20:51:21.171 +05:30 [WRN] No type was specified for the decimal column 'ProductPrice' on entity type 'OrderProduct'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-11 20:51:21.171 +05:30 [WRN] No type was specified for the decimal column 'ProductPrice' on entity type 'Products'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-11 20:51:23.071 +05:30 [INF] Get existing user details completed
+2020-09-11 20:51:23.096 +05:30 [INF] HTTP GET /api/payment/billingUser/15 responded 200 in 3320.5802 ms
+2020-09-11 20:53:21.694 +05:30 [INF] HTTP OPTIONS /api/payment/billingUser/15 responded 204 in 10.6698 ms
+2020-09-11 20:53:21.982 +05:30 [INF] Get existing user details completed
+2020-09-11 20:53:21.987 +05:30 [INF] HTTP GET /api/payment/billingUser/15 responded 200 in 222.4061 ms
+2020-09-11 20:53:28.072 +05:30 [INF] HTTP OPTIONS /api/payment/completePayment responded 204 in 1.0943 ms
+2020-09-11 20:53:28.159 +05:30 [INF] HTTP POST /api/payment/completePayment responded 400 in 79.9869 ms
+2020-09-11 21:01:44.771 +05:30 [INF] HTTP OPTIONS /api/auth/login responded 204 in 10.8680 ms
+2020-09-11 21:01:45.049 +05:30 [INF] HTTP POST /api/auth/login responded 200 in 263.8220 ms
+2020-09-11 21:02:12.627 +05:30 [INF] HTTP OPTIONS /api/payment/billingUser/14 responded 204 in 0.4275 ms
+2020-09-11 21:02:12.659 +05:30 [INF] Get existing user details completed
+2020-09-11 21:02:12.662 +05:30 [INF] HTTP GET /api/payment/billingUser/14 responded 200 in 14.0366 ms
+2020-09-11 21:02:50.042 +05:30 [INF] HTTP OPTIONS /api/payment/completePayment responded 204 in 0.2176 ms
+2020-09-11 21:02:50.063 +05:30 [INF] HTTP POST /api/payment/completePayment responded 400 in 10.3190 ms
+2020-09-11 21:10:40.170 +05:30 [INF] HTTP POST /api/payment/completePayment responded 400 in 10.7914 ms
+2020-09-11 21:19:01.915 +05:30 [INF] HTTP POST /api/payment/completePayment responded 400 in 715.8291 ms
+2020-09-11 21:29:46.433 +05:30 [INF] HTTP POST /api/payment/completePayment responded 400 in 586.1625 ms
+2020-09-11 21:33:36.226 +05:30 [INF] HTTP POST /api/payment/completePayment responded 400 in 535.2404 ms
+2020-09-11 21:35:12.992 +05:30 [INF] HTTP POST /api/payment/completePayment responded 400 in 67.7860 ms
+2020-09-11 21:35:24.592 +05:30 [INF] HTTP POST /api/payment/completePayment responded 400 in 8.3100 ms
+2020-09-11 21:35:59.012 +05:30 [INF] HTTP POST /api/payment/completePayment responded 400 in 7.5239 ms
+2020-09-11 21:36:35.780 +05:30 [WRN] No type was specified for the decimal column 'OrderTotal' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-11 21:36:35.784 +05:30 [WRN] No type was specified for the decimal column 'ProductPrice' on entity type 'OrderProduct'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-11 21:36:35.784 +05:30 [WRN] No type was specified for the decimal column 'ProductPrice' on entity type 'Products'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-11 21:36:37.450 +05:30 [INF] HTTP POST /api/payment/completePayment responded 201 in 2321.3320 ms
+2020-09-11 21:37:03.437 +05:30 [INF] HTTP POST /api/payment/completePayment responded 400 in 6.8592 ms
+2020-09-11 21:39:17.432 +05:30 [INF] HTTP OPTIONS /api/payment/billingUser/14 responded 204 in 4.4144 ms
+2020-09-11 21:39:18.190 +05:30 [INF] Get existing user details completed
+2020-09-11 21:39:18.198 +05:30 [INF] HTTP GET /api/payment/billingUser/14 responded 200 in 758.9779 ms
+2020-09-11 21:39:23.569 +05:30 [INF] HTTP OPTIONS /api/payment/completePayment responded 204 in 0.8181 ms
+2020-09-11 21:39:23.585 +05:30 [INF] HTTP POST /api/payment/completePayment responded 400 in 4.4974 ms
+2020-09-11 21:40:29.277 +05:30 [INF] HTTP POST /api/payment/completePayment responded 400 in 11.4613 ms
+2020-09-11 21:40:31.205 +05:30 [INF] HTTP POST /api/payment/completePayment responded 400 in 17.8681 ms
+2020-09-11 21:40:43.281 +05:30 [INF] HTTP POST /api/payment/completePayment responded 400 in 4.2349 ms
+2020-09-11 21:40:52.806 +05:30 [INF] HTTP POST /api/payment/completePayment responded 400 in 6.7500 ms
+2020-09-11 21:40:54.789 +05:30 [INF] HTTP POST /api/payment/completePayment responded 400 in 5.9355 ms
+2020-09-11 21:41:10.427 +05:30 [INF] HTTP POST /api/payment/completePayment responded 201 in 72.4067 ms
+2020-09-11 21:49:53.759 +05:30 [WRN] No type was specified for the decimal column 'OrderTotal' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-11 21:49:53.823 +05:30 [WRN] No type was specified for the decimal column 'ProductPrice' on entity type 'OrderProduct'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-11 21:49:53.824 +05:30 [WRN] No type was specified for the decimal column 'ProductPrice' on entity type 'Products'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-11 21:49:54.591 +05:30 [INF] HTTP POST /api/payment/completePayment responded 201 in 2342.5753 ms
+2020-09-11 21:50:52.083 +05:30 [INF] HTTP POST /api/payment/completePayment responded 400 in 63.7439 ms
+2020-09-11 21:54:20.812 +05:30 [INF] HTTP OPTIONS /api/payment/billingUser/14 responded 204 in 33.0087 ms
+2020-09-11 21:54:21.867 +05:30 [INF] Get existing user details completed
+2020-09-11 21:54:21.881 +05:30 [INF] HTTP GET /api/payment/billingUser/14 responded 200 in 1043.7967 ms
+2020-09-11 21:56:25.694 +05:30 [INF] HTTP OPTIONS /api/payment/billingUser/14 responded 204 in 0.9966 ms
+2020-09-11 21:56:25.813 +05:30 [INF] Get existing user details completed
+2020-09-11 21:56:25.814 +05:30 [INF] HTTP GET /api/payment/billingUser/14 responded 200 in 106.2228 ms
+2020-09-11 21:58:47.480 +05:30 [INF] HTTP OPTIONS /api/payment/billingUser/14 responded 204 in 1.6770 ms
+2020-09-11 21:58:47.516 +05:30 [INF] Get existing user details completed
+2020-09-11 21:58:47.518 +05:30 [INF] HTTP GET /api/payment/billingUser/14 responded 200 in 25.7708 ms
+2020-09-11 22:00:14.770 +05:30 [INF] HTTP OPTIONS /api/payment/billingUser/14 responded 204 in 4.5453 ms
+2020-09-11 22:00:14.905 +05:30 [INF] Get existing user details completed
+2020-09-11 22:00:14.908 +05:30 [INF] HTTP GET /api/payment/billingUser/14 responded 200 in 123.8005 ms
+2020-09-11 22:00:16.324 +05:30 [INF] HTTP OPTIONS /api/payment/completePayment responded 204 in 1.3403 ms
+2020-09-11 22:00:16.357 +05:30 [INF] HTTP POST /api/payment/completePayment responded 400 in 28.1428 ms
+2020-09-11 22:01:12.588 +05:30 [INF] HTTP OPTIONS /api/payment/billingUser/14 responded 204 in 0.2758 ms
+2020-09-11 22:01:12.643 +05:30 [INF] Get existing user details completed
+2020-09-11 22:01:12.645 +05:30 [INF] HTTP GET /api/payment/billingUser/14 responded 200 in 36.9508 ms
+2020-09-11 22:01:14.424 +05:30 [INF] HTTP OPTIONS /api/payment/completePayment responded 204 in 0.2605 ms
+2020-09-11 22:01:14.444 +05:30 [INF] HTTP POST /api/payment/completePayment responded 400 in 8.7350 ms
+2020-09-11 22:01:49.116 +05:30 [INF] HTTP POST /api/payment/completePayment responded 400 in 6.3135 ms
+2020-09-11 22:02:11.158 +05:30 [INF] HTTP POST /api/payment/completePayment responded 201 in 90.4272 ms
+2020-09-11 22:12:18.352 +05:30 [WRN] No type was specified for the decimal column 'OrderTotal' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-11 22:12:18.421 +05:30 [WRN] No type was specified for the decimal column 'ProductPrice' on entity type 'OrderProduct'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-11 22:12:18.421 +05:30 [WRN] No type was specified for the decimal column 'ProductPrice' on entity type 'Products'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-11 22:12:19.245 +05:30 [INF] HTTP POST /api/payment/completePayment responded 201 in 2220.1343 ms
+2020-09-11 22:13:32.268 +05:30 [INF] HTTP POST /api/payment/completePayment responded 400 in 55.5101 ms
+2020-09-11 22:13:45.158 +05:30 [INF] HTTP POST /api/payment/completePayment responded 201 in 80.6568 ms

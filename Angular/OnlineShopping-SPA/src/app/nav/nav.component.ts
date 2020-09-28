@@ -21,13 +21,12 @@ export class NavComponent implements OnInit {
   constructor(private authService: AuthService, private alertify: AlertifyService, private cartItemsService: CartItemsService) { }
 
   ngOnInit() {
-      
       this.subscription = this.cartItemsService.cartItemSubject
                             .subscribe((product: Product[]) => {
                             this.cartItemsCount = product.length;
       });
 
-      if('item' in localStorage) {
+      if ('item' in localStorage) {
         this.cartItemsCount = this.cartItemsService.cartItemCount();
       }
   }

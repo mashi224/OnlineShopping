@@ -16,6 +16,7 @@ export class ProductCardsComponent implements OnInit {
   }
 
   handleAddToCart() {
-    this.cartItemsService.sendItems(this.product)
+    this.cartItemsService.sendItems(this.product);
+    console.log(this.product);
   }
 }

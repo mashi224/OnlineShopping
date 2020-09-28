@@ -8,30 +8,30 @@ import { map } from 'rxjs/operators';
 })
 export class CartItemsService {
 
-  cartItems =[];
+  cartItems = [];
   cartTotal: number;
   itemCount: number;
   cartItemSubject = new BehaviorSubject<Product[]>(this.cartItems);
-  itemCountSubject = new BehaviorSubject<number>(0);
+  // itemCountSubject = new BehaviorSubject<number>(0);
 
   constructor() { }
 
   sendItems(product: Product) {
 
-    if(!this.cartItems.find(x => x.productId === product.id)) {
+    if (!this.cartItems.find(x => x.productId === product.categoryId)) {
     // && localStorage.value('item').length === 0 )
         this.cartItems.push({
-          productId : product.id,
+          productId : product.productId,
           productName : product.productName,
           qty : 1,
           price : product.productPrice,
-        })
-      } 
+        });
+      }
     this.cartItemSubject.next(this.cartItems);
     localStorage.setItem('item', JSON.stringify(this.cartItems));
   }
 
-  getItems(){
+  getItems() {
 
     this.cartItems = JSON.parse(localStorage.getItem('item'));
     this.cartItemSubject.next(this.cartItems);
@@ -48,9 +48,9 @@ export class CartItemsService {
   }
 
   removeItems(itemToRemove) {
-      var currentArray = JSON.parse(localStorage.getItem('item'));
+      const currentArray = JSON.parse(localStorage.getItem('item'));
       // var i = currentArray.productId;
-      for (var i = 0; i < currentArray.length; ++i) {
+      for (let i = 0; i < currentArray.length; ++i) {
         if (currentArray[i].productId === itemToRemove.productId) {
           currentArray.splice(i, 1);
           this.cartItemSubject.next(this.cartItems);
@@ -68,7 +68,7 @@ export class CartItemsService {
   //     var i = currentArray.productId;
   //     for (i = 0; i < currentArray.length; ++i) {
   //       if (currentArray[i].productId === productItem.productId) {
-  //         this.cartItems[i].qty++ 
+  //         this.cartItems[i].qty++
   //         localStorage.setItem('item', JSON.stringify(currentArray))
   //       }
   //     }
@@ -76,45 +76,45 @@ export class CartItemsService {
   // }
 
   changeQty(cartItem) {
-    var currentArray = JSON.parse(localStorage.getItem('item'));
+    let currentArray = JSON.parse(localStorage.getItem('item'));
       // var i = currentArray.productId;
-      for (var i = 0; i < currentArray.length; ++i) {
+    for (let i = 0; i < currentArray.length; ++i) {
         if (currentArray[i].productId === cartItem.productId) {
-          currentArray[i].qty = cartItem.qty
+          currentArray[i].qty = cartItem.qty;
           // this.getUpdatedCartTotal(cartItem);
           // this.getCartTotal()
           this.cartItemSubject.next(this.cartItems);
-          localStorage.setItem('item', JSON.stringify(currentArray))
+          localStorage.setItem('item', JSON.stringify(currentArray));
         }
       }
       // return localStorage.getItem('item');
       // this.getCartTotal();
-      this.getItems();
+    this.getItems();
   }
 
   // getUpdatedCartTotal(cartItem) {
-    
+
   //   this.cartTotal += cartItem.price
   //   console.log(this.cartTotal + ' Updated cart total')
   //   return this.cartTotal
-    
+
   // }
 
   getCartTotal() {
     this.cartTotal = 0;
     this.cartItems = this.getItems();
-      this.cartItems.forEach(cartItem => {
-        this.cartTotal += (cartItem.qty * cartItem.price)
-          console.log(this.cartTotal)
-          // this.cartTotal = 
+    this.cartItems.forEach(cartItem => {
+        this.cartTotal += (cartItem.qty * cartItem.price);
+        console.log(this.cartTotal);
+          // this.cartTotal =
           // this.productService.currentCategoryId = id;
         // return this.cartTotal;
-     })
-     return this.cartTotal;
+     });
+    return this.cartTotal;
   }
 
 
-    
+
   // decreaseQty(productItem) {
   //   var currentArray = JSON.parse(localStorage.getItem('item'));
   //     var i = currentArray.productId;
@@ -126,6 +126,10 @@ export class CartItemsService {
   //     }
   //     return localStorage.getItem('item');
   // }
+
+  clearCart() {
+
+  }
 
 }
 

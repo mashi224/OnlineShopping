@@ -1,0 +1,132 @@
+2020-09-25 10:18:34.836 +05:30 [INF] HTTP OPTIONS /api/payment/billingUser/15 responded 204 in 8.0927 ms
+2020-09-25 10:18:38.327 +05:30 [INF] Get existing user details completed
+2020-09-25 10:18:38.338 +05:30 [INF] HTTP GET /api/payment/billingUser/15 responded 200 in 3298.2432 ms
+2020-09-25 10:18:39.498 +05:30 [INF] HTTP OPTIONS /api/payment/completePayment responded 204 in 0.1084 ms
+2020-09-25 10:18:39.556 +05:30 [INF] HTTP OPTIONS /api/payment/completePayment responded 204 in 0.1006 ms
+2020-09-25 10:18:45.830 +05:30 [INF] HTTP POST /api/payment/completePayment responded 200 in 6246.4260 ms
+2020-09-25 10:18:46.033 +05:30 [INF] HTTP POST /api/payment/completePayment responded 200 in 6452.6546 ms
+2020-09-25 10:21:41.030 +05:30 [INF] HTTP OPTIONS /api/payment/billingUser/15 responded 204 in 5.4511 ms
+2020-09-25 10:21:41.232 +05:30 [INF] Get existing user details completed
+2020-09-25 10:21:41.238 +05:30 [INF] HTTP GET /api/payment/billingUser/15 responded 200 in 175.7540 ms
+2020-09-25 10:21:42.340 +05:30 [INF] HTTP OPTIONS /api/payment/completePayment responded 204 in 0.4349 ms
+2020-09-25 10:21:42.392 +05:30 [INF] HTTP OPTIONS /api/payment/completePayment responded 204 in 0.7828 ms
+2020-09-25 10:21:46.977 +05:30 [INF] HTTP POST /api/payment/completePayment responded 200 in 4632.5859 ms
+2020-09-25 10:21:47.688 +05:30 [INF] HTTP POST /api/payment/completePayment responded 200 in 5293.1215 ms
+2020-09-25 10:47:19.442 +05:30 [INF] HTTP OPTIONS /api/payment/billingUser/15 responded 204 in 5.8086 ms
+2020-09-25 10:47:20.724 +05:30 [INF] Get existing user details completed
+2020-09-25 10:47:20.728 +05:30 [INF] HTTP GET /api/payment/billingUser/15 responded 200 in 1274.3987 ms
+2020-09-25 10:47:20.822 +05:30 [INF] HTTP OPTIONS /api/payment/completePayment responded 204 in 0.0603 ms
+2020-09-25 10:47:25.274 +05:30 [INF] HTTP POST /api/payment/completePayment responded 200 in 4449.7411 ms
+2020-09-25 11:11:12.399 +05:30 [INF] HTTP OPTIONS /api/payment/billingUser/15 responded 204 in 5.4308 ms
+2020-09-25 11:11:13.497 +05:30 [INF] HTTP OPTIONS /api/payment/completePayment responded 204 in 0.0658 ms
+2020-09-25 11:11:13.549 +05:30 [INF] HTTP POST /api/payment/completePayment responded 400 in 48.9371 ms
+2020-09-25 11:11:13.569 +05:30 [INF] Get existing user details completed
+2020-09-25 11:11:13.570 +05:30 [INF] HTTP GET /api/payment/billingUser/15 responded 200 in 1135.9939 ms
+2020-09-25 11:49:40.766 +05:30 [INF] HTTP OPTIONS /api/payment/billingUser/15 responded 204 in 12.5832 ms
+2020-09-25 11:49:42.204 +05:30 [INF] HTTP OPTIONS /api/payment/completePayment responded 204 in 0.5832 ms
+2020-09-25 11:49:42.276 +05:30 [INF] Get existing user details completed
+2020-09-25 11:49:42.279 +05:30 [INF] HTTP GET /api/payment/billingUser/15 responded 200 in 1491.7888 ms
+2020-09-25 11:49:42.292 +05:30 [INF] HTTP POST /api/payment/completePayment responded 400 in 64.1001 ms
+2020-09-25 11:52:27.839 +05:30 [INF] HTTP OPTIONS /api/payment/completePayment responded 204 in 2.6133 ms
+2020-09-25 11:52:33.151 +05:30 [INF] HTTP POST /api/payment/completePayment responded 200 in 5277.7572 ms
+2020-09-25 11:54:37.626 +05:30 [INF] HTTP OPTIONS /api/payment/billingUser/15 responded 204 in 0.2242 ms
+2020-09-25 11:54:37.846 +05:30 [INF] Get existing user details completed
+2020-09-25 11:54:37.849 +05:30 [INF] HTTP GET /api/payment/billingUser/15 responded 200 in 203.2307 ms
+2020-09-25 11:54:44.350 +05:30 [INF] HTTP OPTIONS /api/payment/completePayment responded 204 in 0.0762 ms
+2020-09-25 11:54:49.029 +05:30 [INF] HTTP POST /api/payment/completePayment responded 200 in 4674.2878 ms
+2020-09-25 12:19:21.830 +05:30 [INF] HTTP OPTIONS /api/payment/billingUser/15 responded 204 in 12.2920 ms
+2020-09-25 12:19:23.070 +05:30 [INF] Get existing user details completed
+2020-09-25 12:19:23.076 +05:30 [INF] HTTP GET /api/payment/billingUser/15 responded 200 in 1219.4999 ms
+2020-09-25 12:19:23.138 +05:30 [INF] HTTP OPTIONS /api/payment/completePayment responded 204 in 0.0796 ms
+2020-09-25 12:19:24.630 +05:30 [INF] HTTP POST /api/payment/completePayment responded 400 in 1485.8225 ms
+2020-09-25 12:20:39.622 +05:30 [INF] HTTP OPTIONS /api/payment/completePayment responded 204 in 0.1171 ms
+2020-09-25 12:20:40.562 +05:30 [INF] HTTP POST /api/payment/completePayment responded 400 in 935.1967 ms
+2020-09-25 12:21:10.880 +05:30 [INF] HTTP GET /api/payment/completePayment responded 405 in 52.7649 ms
+2020-09-25 12:21:35.425 +05:30 [INF] HTTP OPTIONS /api/payment/billingUser/15 responded 204 in 0.1239 ms
+2020-09-25 12:21:35.654 +05:30 [INF] Get existing user details completed
+2020-09-25 12:21:35.655 +05:30 [INF] HTTP GET /api/payment/billingUser/15 responded 200 in 210.4457 ms
+2020-09-25 12:21:39.326 +05:30 [INF] HTTP OPTIONS /api/payment/completePayment responded 204 in 0.0940 ms
+2020-09-25 12:21:39.920 +05:30 [INF] HTTP POST /api/payment/completePayment responded 400 in 589.1239 ms
+2020-09-25 12:22:29.740 +05:30 [INF] HTTP OPTIONS /api/payment/billingUser/15 responded 204 in 0.0695 ms
+2020-09-25 12:22:29.765 +05:30 [INF] Get existing user details completed
+2020-09-25 12:22:29.766 +05:30 [INF] HTTP GET /api/payment/billingUser/15 responded 200 in 10.9843 ms
+2020-09-25 12:22:34.115 +05:30 [INF] HTTP OPTIONS /api/payment/completePayment responded 204 in 0.0865 ms
+2020-09-25 12:22:34.635 +05:30 [INF] HTTP POST /api/payment/completePayment responded 400 in 516.2123 ms
+2020-09-25 12:44:58.269 +05:30 [INF] HTTP OPTIONS /api/payment/billingUser/15 responded 204 in 10.2835 ms
+2020-09-25 12:44:58.860 +05:30 [INF] Get existing user details completed
+2020-09-25 12:44:58.867 +05:30 [INF] HTTP GET /api/payment/billingUser/15 responded 200 in 554.3683 ms
+2020-09-25 12:45:00.476 +05:30 [INF] HTTP OPTIONS /api/payment/completePayment responded 204 in 0.0915 ms
+2020-09-25 12:45:01.268 +05:30 [INF] HTTP POST /api/payment/completePayment responded 400 in 779.4062 ms
+2020-09-25 12:56:19.786 +05:30 [INF] HTTP OPTIONS /api/payment/billingUser/15 responded 204 in 66.5300 ms
+2020-09-25 12:56:20.934 +05:30 [INF] HTTP OPTIONS /api/payment/completePayment responded 204 in 1.0677 ms
+2020-09-25 12:56:21.481 +05:30 [INF] HTTP POST /api/payment/completePayment responded 400 in 542.6094 ms
+2020-09-25 12:56:22.770 +05:30 [WRN] No type was specified for the decimal column 'OrderTotal' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-25 12:56:22.779 +05:30 [WRN] No type was specified for the decimal column 'ProductPrice' on entity type 'OrderProduct'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-25 12:56:22.779 +05:30 [WRN] No type was specified for the decimal column 'ProductPrice' on entity type 'Products'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-25 12:56:25.317 +05:30 [INF] Get existing user details completed
+2020-09-25 12:56:25.363 +05:30 [INF] HTTP GET /api/payment/billingUser/15 responded 200 in 5451.0650 ms
+2020-09-25 19:45:13.986 +05:30 [INF] HTTP OPTIONS /api/payment/billingUser/15 responded 204 in 17.9101 ms
+2020-09-25 19:45:15.388 +05:30 [INF] Get existing user details completed
+2020-09-25 19:45:15.401 +05:30 [INF] HTTP GET /api/payment/billingUser/15 responded 200 in 1328.8018 ms
+2020-09-25 19:45:16.690 +05:30 [INF] HTTP OPTIONS /api/payment/completePayment responded 204 in 1.1520 ms
+2020-09-25 19:45:24.808 +05:30 [INF] HTTP POST /api/payment/completePayment responded 200 in 8110.4868 ms
+2020-09-25 21:01:21.336 +05:30 [INF] HTTP OPTIONS /api/category responded 204 in 12.8240 ms
+2020-09-25 21:01:22.095 +05:30 [INF] HTTP OPTIONS /api/category responded 204 in 1.2692 ms
+2020-09-25 21:01:23.061 +05:30 [INF] Get categories completed.
+2020-09-25 21:01:23.061 +05:30 [INF] Get categories completed.
+2020-09-25 21:01:23.103 +05:30 [INF] HTTP GET /api/category responded 200 in 1719.5565 ms
+2020-09-25 21:01:23.103 +05:30 [INF] HTTP GET /api/category responded 200 in 1000.7051 ms
+2020-09-25 21:01:24.919 +05:30 [INF] HTTP OPTIONS /api/product/1 responded 204 in 2.3833 ms
+2020-09-25 21:01:25.178 +05:30 [INF] HTTP GET /api/product/1 responded 200 in 245.4704 ms
+2020-09-25 21:02:14.077 +05:30 [INF] HTTP OPTIONS /api/product/undefined responded 204 in 1.6608 ms
+2020-09-25 21:02:14.199 +05:30 [INF] HTTP GET /api/product/undefined responded 400 in 114.5757 ms
+2020-09-25 21:02:25.617 +05:30 [INF] HTTP OPTIONS /api/product/undefined responded 204 in 5.1396 ms
+2020-09-25 21:02:25.724 +05:30 [INF] HTTP GET /api/product/undefined responded 400 in 19.8743 ms
+2020-09-25 21:02:26.754 +05:30 [INF] HTTP OPTIONS /api/category responded 204 in 0.6260 ms
+2020-09-25 21:02:26.903 +05:30 [INF] Get categories completed.
+2020-09-25 21:02:26.908 +05:30 [INF] HTTP GET /api/category responded 200 in 140.4534 ms
+2020-09-25 21:02:29.225 +05:30 [INF] HTTP OPTIONS /api/product/4 responded 204 in 0.3300 ms
+2020-09-25 21:02:29.296 +05:30 [INF] HTTP GET /api/product/4 responded 200 in 63.2384 ms
+2020-09-25 21:02:42.984 +05:30 [INF] HTTP OPTIONS /api/category responded 204 in 1.2426 ms
+2020-09-25 21:02:43.010 +05:30 [INF] Get categories completed.
+2020-09-25 21:02:43.014 +05:30 [INF] HTTP GET /api/category responded 200 in 20.5135 ms
+2020-09-25 21:02:44.248 +05:30 [INF] HTTP OPTIONS /api/product/4 responded 204 in 0.4494 ms
+2020-09-25 21:02:44.296 +05:30 [INF] HTTP GET /api/product/4 responded 200 in 39.2832 ms
+2020-09-25 21:02:50.786 +05:30 [INF] HTTP OPTIONS /api/category responded 204 in 0.2945 ms
+2020-09-25 21:02:50.820 +05:30 [INF] Get categories completed.
+2020-09-25 21:02:50.823 +05:30 [INF] HTTP GET /api/category responded 200 in 18.0823 ms
+2020-09-25 21:02:51.901 +05:30 [INF] HTTP OPTIONS /api/product/3 responded 204 in 0.4818 ms
+2020-09-25 21:02:51.927 +05:30 [INF] HTTP GET /api/product/3 responded 200 in 17.3688 ms
+2020-09-25 21:03:12.683 +05:30 [INF] HTTP OPTIONS /api/payment/billingUser/15 responded 204 in 0.6575 ms
+2020-09-25 21:03:12.757 +05:30 [INF] Get existing user details completed
+2020-09-25 21:03:12.759 +05:30 [INF] HTTP GET /api/payment/billingUser/15 responded 200 in 53.5846 ms
+2020-09-25 21:03:19.853 +05:30 [INF] HTTP OPTIONS /api/payment/completePayment responded 204 in 0.6360 ms
+2020-09-25 21:03:26.204 +05:30 [INF] HTTP POST /api/payment/completePayment responded 200 in 6345.0238 ms
+2020-09-25 21:07:18.218 +05:30 [INF] HTTP OPTIONS /api/payment/billingUser/15 responded 204 in 2.7028 ms
+2020-09-25 21:07:19.271 +05:30 [INF] Get existing user details completed
+2020-09-25 21:07:19.273 +05:30 [INF] HTTP GET /api/payment/billingUser/15 responded 200 in 1024.1338 ms
+2020-09-25 21:07:20.555 +05:30 [INF] HTTP OPTIONS /api/payment/completePayment responded 204 in 0.1774 ms
+2020-09-25 21:07:25.713 +05:30 [INF] HTTP POST /api/payment/completePayment responded 200 in 5152.9872 ms
+2020-09-25 21:22:06.290 +05:30 [INF] HTTP OPTIONS /api/payment/billingUser/15 responded 204 in 119.8503 ms
+2020-09-25 21:22:07.940 +05:30 [INF] HTTP OPTIONS /api/payment/completePayment responded 204 in 1.4002 ms
+2020-09-25 21:22:08.343 +05:30 [INF] HTTP POST /api/payment/completePayment responded 400 in 392.2657 ms
+2020-09-25 21:22:09.620 +05:30 [WRN] No type was specified for the decimal column 'OrderTotal' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-25 21:22:09.626 +05:30 [WRN] No type was specified for the decimal column 'ProductPrice' on entity type 'OrderProduct'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-25 21:22:09.626 +05:30 [WRN] No type was specified for the decimal column 'ProductPrice' on entity type 'Products'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-25 21:22:12.723 +05:30 [INF] Get existing user details completed
+2020-09-25 21:22:12.745 +05:30 [INF] HTTP GET /api/payment/billingUser/15 responded 200 in 6262.0764 ms
+2020-09-25 21:43:03.819 +05:30 [INF] HTTP OPTIONS /api/payment/billingUser/15 responded 204 in 77.6536 ms
+2020-09-25 21:43:06.858 +05:30 [WRN] No type was specified for the decimal column 'OrderTotal' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-25 21:43:06.866 +05:30 [WRN] No type was specified for the decimal column 'ProductPrice' on entity type 'OrderProduct'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-25 21:43:06.866 +05:30 [WRN] No type was specified for the decimal column 'ProductPrice' on entity type 'Products'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-25 21:43:07.813 +05:30 [INF] HTTP OPTIONS /api/payment/completePayment responded 204 in 1.5918 ms
+2020-09-25 21:43:07.958 +05:30 [INF] HTTP POST /api/payment/completePayment responded 400 in 140.1440 ms
+2020-09-25 21:43:09.066 +05:30 [INF] Get existing user details completed
+2020-09-25 21:43:09.093 +05:30 [INF] HTTP GET /api/payment/billingUser/15 responded 200 in 5108.7569 ms
+2020-09-25 21:45:13.947 +05:30 [INF] HTTP OPTIONS /api/payment/completePayment responded 204 in 0.9130 ms
+2020-09-25 21:46:44.309 +05:30 [INF] HTTP POST /api/payment/completePayment responded 200 in 90347.1487 ms
+2020-09-25 22:01:55.932 +05:30 [INF] HTTP OPTIONS /api/payment/billingUser/15 responded 204 in 19.1185 ms
+2020-09-25 22:01:56.600 +05:30 [INF] Get existing user details completed
+2020-09-25 22:01:56.613 +05:30 [INF] HTTP GET /api/payment/billingUser/15 responded 200 in 632.5365 ms
+2020-09-25 22:02:03.701 +05:30 [INF] HTTP OPTIONS /api/payment/completePayment responded 204 in 0.6050 ms
+2020-09-25 22:02:28.113 +05:30 [INF] HTTP POST /api/payment/completePayment responded 200 in 24398.7140 ms

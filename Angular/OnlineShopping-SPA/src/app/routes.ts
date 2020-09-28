@@ -5,6 +5,7 @@ import { HomeComponent } from './home/home.component';
 import { RegistrationComponent } from './registration/registration.component';
 import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
 import { CheckoutComponent } from './checkout/checkout.component';
+import { OrderHistoryComponent } from './order-history/order-history.component';
 
 export const appRoutes: Routes = [
     // { path: 'product', component: CategoryProductsComponent},
@@ -13,6 +14,7 @@ export const appRoutes: Routes = [
     { path: 'register', component: RegistrationComponent},
     { path: 'shopping-cart', component: ShoppingCartComponent},
     { path: 'checkout', component: CheckoutComponent },
+    { path: 'orderHistory', component: OrderHistoryComponent },
     { path: 'home', component: HomeComponent},
     { path: '**', redirectTo: 'CategoryComponent', pathMatch: 'full'},
 ];

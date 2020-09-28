@@ -20,8 +20,8 @@ products: Product[];
   ngOnInit() {
   }
 
-  loadProducts(id) {
-    this.productService.currentCategoryId = id;
+  loadProducts(categoryId: number) {
+    this.productService.currentCategoryId = categoryId;
     }
 
 }

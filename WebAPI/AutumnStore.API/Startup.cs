@@ -17,6 +17,8 @@ using AutumnStore.Business;
 using Microsoft.OpenApi.Models;
 using Serilog;
 using AutumnStore.Data.UnitOfWork;
+using EmailService;
+using Microsoft.AspNetCore.Http.Features;
 
 namespace AutumnStore.API
 {
@@ -43,6 +45,22 @@ namespace AutumnStore.API
             //    c.SwaggerDoc(name: "v1", new OpenApiInfo { Title = "Autumn Store", Version = "v1" });
             //});
 
+            var emailConfig = Configuration
+               .GetSection("EmailConfiguration")
+               .Get<EmailConfiguration>();
+            services.AddSingleton(emailConfig);
+
+            services.AddScoped<IEmailSender, EmailSender>();
+
+            //-----Send attachment with email-----
+            //services.Configure<FormOptions>(o =>
+            //{
+            //    o.ValueLengthLimit = int.MaxValue;
+            //    o.MultipartBodyLengthLimit = int.MaxValue;
+            //    o.MemoryBufferThreshold = int.MaxValue;
+            //});
+
+
             services.AddDbContext<DataContext>(x => x.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             // for UnitOfWork
             services.AddScoped<IUnitOfWork, UnitOfWork>();
@@ -56,10 +74,10 @@ namespace AutumnStore.API
             services.AddScoped<IAuthManagement, AuthManagement>();
             services.AddScoped<IProductManagement, ProductManagement>();
             services.AddScoped<IPaymentManagement, PaymentManagement>();
-            services.AddScoped<IAuthRepository, AuthRepository>();
-            services.AddScoped<IProductRepository, ProductRepository>();
-            services.AddScoped<ICategoryRepository, CategoryRepository>();
-            services.AddScoped<IPaymentRepository, PaymentRepository>();
+            //services.AddScoped<IAuthRepository, AuthRepository>();
+            //services.AddScoped<IProductRepository, ProductRepository>();
+            //services.AddScoped<ICategoryRepository, CategoryRepository>();
+            //services.AddScoped<IPaymentRepository, PaymentRepository>();
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 .AddJwtBearer(options => {
                     options.TokenValidationParameters = new TokenValidationParameters

@@ -1,0 +1,19 @@
+2020-09-22 14:47:01.824 +05:30 [WRN] No type was specified for the decimal column 'OrderTotal' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-22 14:47:01.974 +05:30 [WRN] No type was specified for the decimal column 'ProductPrice' on entity type 'OrderProduct'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-22 14:47:01.976 +05:30 [WRN] No type was specified for the decimal column 'ProductPrice' on entity type 'Products'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-22 14:47:13.359 +05:30 [INF] HTTP POST /api/payment/completePayment responded 200 in 14126.7864 ms
+2020-09-22 14:56:13.624 +05:30 [INF] HTTP OPTIONS /api/payment/billingUser/15 responded 204 in 28.0369 ms
+2020-09-22 14:56:14.505 +05:30 [INF] Get existing user details completed
+2020-09-22 14:56:14.539 +05:30 [INF] HTTP GET /api/payment/billingUser/15 responded 200 in 888.6257 ms
+2020-09-22 14:56:38.041 +05:30 [INF] HTTP OPTIONS /api/payment/completePayment responded 204 in 1.5246 ms
+2020-09-22 14:56:43.461 +05:30 [INF] HTTP POST /api/payment/completePayment responded 200 in 5411.3950 ms
+2020-09-22 22:39:37.280 +05:30 [INF] HTTP OPTIONS /api/payment/billingUser/15 responded 204 in 32.5098 ms
+2020-09-22 22:39:38.734 +05:30 [WRN] No type was specified for the decimal column 'OrderTotal' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-22 22:39:38.737 +05:30 [WRN] No type was specified for the decimal column 'ProductPrice' on entity type 'OrderProduct'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-22 22:39:38.737 +05:30 [WRN] No type was specified for the decimal column 'ProductPrice' on entity type 'Products'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-22 22:39:40.562 +05:30 [INF] Get existing user details completed
+2020-09-22 22:39:40.597 +05:30 [INF] HTTP GET /api/payment/billingUser/15 responded 200 in 3249.5748 ms
+2020-09-22 22:39:45.985 +05:30 [INF] HTTP OPTIONS /api/payment/completePayment responded 204 in 0.9646 ms
+2020-09-22 22:39:51.547 +05:30 [INF] HTTP POST /api/payment/completePayment responded 200 in 5559.2049 ms
+2020-09-22 22:39:58.988 +05:30 [INF] HTTP OPTIONS /api/payment/completePayment responded 204 in 0.4870 ms
+2020-09-22 22:40:02.841 +05:30 [INF] HTTP POST /api/payment/completePayment responded 200 in 3849.8691 ms

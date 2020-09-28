@@ -67,7 +67,7 @@
         <div class="col-md-8 order-md-1">
           <br/> <br/>
           <h4 class="mb-3">Shipping address</h4>
-          <form class="needs-validation" #PaymentForm="ngForm" (ngSubmit)="paymentDetails()">
+          <form class="needs-validation" #PaymentForm="ngForm" (ngSubmit)="completePayment()">
             <div class="row">
               <div class="col-md-6 mb-3">
                 <label for="firstName">First name</label>
@@ -142,9 +142,9 @@
             <hr class="mb-4">
 
             <!-- Payment -->
-            <h4 class="mb-3">Payment</h4>
+            <!-- <h4 class="mb-3">Payment</h4> -->
 
-            <div class="d-block my-3">
+            <!-- <div class="d-block my-3">
               <div class="custom-control custom-radio">
                 <input id="credit" name="paymentMethod" type="radio" class="custom-control-input" checked="" required>
                 <label class="custom-control-label" for="credit">Credit card</label>
@@ -157,8 +157,8 @@
                 <input id="paypal" name="paymentMethod" type="radio" class="custom-control-input" required>
                 <label class="custom-control-label" for="paypal">Paypal</label>
               </div>
-            </div>
-            <div class="row">
+            </div> -->
+            <!-- <div class="row">
               <div class="col-md-6 mb-3">
                 <label for="cc-name">Name on card</label>
                 <input type="text" class="form-control" id="cc-name" placeholder="" required>
@@ -174,8 +174,8 @@
                   Credit card number is required
                 </div>
               </div>
-            </div>
-            <div class="row">
+            </div> -->
+            <!-- <div class="row">
               <div class="col-md-3 mb-3">
                 <label for="cc-expiration">Expiration</label>
                 <input type="text" class="form-control" id="cc-expiration" placeholder="" required>
@@ -190,7 +190,7 @@
                   Security code required
                 </div>
               </div>
-            </div>
+            </div> -->
             <br/>
             <button class="btn btn-primary btn-lg btn-block" type="submit">Complete Payment</button>
           </form>

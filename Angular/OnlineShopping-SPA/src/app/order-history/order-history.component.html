@@ -1,0 +1,63 @@
+<html>
+    <body>
+        <br/>
+        <h4 style="font-family:Georgia, 'Times New Roman', Times, serif"><i>&nbsp;&nbsp;&nbsp;THANK YOU FOR SHOPPING WITH US!!! &nbsp;YOUR ORDERS HISTORY IS BELOW...</i></h4>
+                 <!-- | async" [value]="orderHistory.OrderId" -->
+            <br/>
+            <div *ngFor="let orderHistory of orderHistoryList" class="container">
+           
+                <div class="card" style="border: none;"> 
+                <div *ngIf="!isSameOrder(orderHistory)"> 
+                    <div class="card-header">
+                        <strong>Order Id:</strong> {{orderHistory.orderId}} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                        | &nbsp;&nbsp;&nbsp; <strong> Order Date:</strong> {{ orderHistory.orderDate | date: 'medium' }}
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title"> </h5>
+                        <div class="row">
+                            <div class="col-sm-5"> 
+                                <p class="card-text">
+                                    <strong> Receiver's Address:</strong> <br/> 
+                                        {{ orderHistory.receiverFirstName }} {{orderHistory.receiverLastName}}, <br/>
+                                        {{orderHistory.receiverAddress}}, {{orderHistory.receiverAddress2}}, <br/>
+                                        {{orderHistory.receiverState}}, {{orderHistory.receiverZip}}, {{orderHistory.receiverCountry}}.
+                                    <br/>
+                                </p>
+                            </div>
+                            <div class="col-sm-7">
+                                <strong>Total Price :</strong> ${{ orderHistory.orderTotal }}.00
+                                <br/>
+                                <br/>
+                                <strong> Order Products: </strong> <br/>
+                                    <table style="width:100%">
+                                        <tr>
+                                            <th style="width:10%">Code</th>
+                                            <th style="width:60%">Product Name</th>
+                                            <th style="width:10%">Qty</th>
+                                            <th style="width:20%">Unit Price</th>
+                                        </tr>
+                                    </table>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                </div>
+
+                    <div class="row">
+                        <div class="col-sm-5"> &nbsp; </div>
+                        <div class="col-sm-7">
+                                <table style="width:100%">
+                                    <tr>
+                                        <td style="width:10%">&nbsp; {{ orderHistory.productId }} </td>
+                                        <td style="width:58%"> {{ orderHistory.productName }} </td>
+                                        <td style="width:10%"> {{ orderHistory.productQty }} </td>
+                                        <td style="width:20%"> ${{ orderHistory.productPrice }}.00 </td>
+                                    </tr>
+                                </table>
+                                <br/>
+                        </div>
+                    </div>
+                </div>
+        </div> 
+    </body>
+</html>

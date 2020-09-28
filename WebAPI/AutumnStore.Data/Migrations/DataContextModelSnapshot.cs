@@ -21,7 +21,7 @@ namespace AutumnStore.Data.Migrations
 
             modelBuilder.Entity("AutumnStore.Data.Model.Category", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("CategoryId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
@@ -32,17 +32,94 @@ namespace AutumnStore.Data.Migrations
                     b.Property<string>("CategoryName")
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("Id");
+                    b.HasKey("CategoryId");
 
                     b.ToTable("Category");
                 });
 
-            modelBuilder.Entity("AutumnStore.Data.Model.Products", b =>
+            modelBuilder.Entity("AutumnStore.Data.Model.Order", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("OrderId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<DateTime>("OrderDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<decimal>("OrderTotal")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<string>("ReceiverAddress")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ReceiverAddress2")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ReceiverCountry")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ReceiverEmail")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ReceiverFirstName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ReceiverLastName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ReceiverState")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("ReceiverZip")
+                        .HasColumnType("int");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("UserName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("OrderId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Order");
+                });
+
+            modelBuilder.Entity("AutumnStore.Data.Model.OrderProduct", b =>
+                {
+                    b.Property<int>("OrderId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("ProductName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("ProductPrice")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<int>("ProductQty")
+                        .HasColumnType("int");
+
+                    b.HasKey("OrderId", "ProductId");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("OrderProduct");
+                });
+
+            modelBuilder.Entity("AutumnStore.Data.Model.Products", b =>
+                {
+                    b.Property<int>("ProductId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int?>("CategoryId")
+                        .HasColumnType("int");
 
                     b.Property<string>("ProductDesc")
                         .HasColumnType("nvarchar(max)");
@@ -56,19 +133,16 @@ namespace AutumnStore.Data.Migrations
                     b.Property<decimal>("ProductPrice")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<int?>("categoryId")
-                        .HasColumnType("int");
+                    b.HasKey("ProductId");
 
-                    b.HasKey("Id");
-
-                    b.HasIndex("categoryId");
+                    b.HasIndex("CategoryId");
 
                     b.ToTable("Products");
                 });
 
             modelBuilder.Entity("AutumnStore.Data.Model.User", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("UserId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
@@ -109,16 +183,40 @@ namespace AutumnStore.Data.Migrations
                     b.Property<string>("Zip")
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("Id");
+                    b.HasKey("UserId");
 
                     b.ToTable("User");
                 });
 
+            modelBuilder.Entity("AutumnStore.Data.Model.Order", b =>
+                {
+                    b.HasOne("AutumnStore.Data.Model.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("AutumnStore.Data.Model.OrderProduct", b =>
+                {
+                    b.HasOne("AutumnStore.Data.Model.Order", "Order")
+                        .WithMany("OrderProduct")
+                        .HasForeignKey("OrderId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("AutumnStore.Data.Model.Products", "Products")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
             modelBuilder.Entity("AutumnStore.Data.Model.Products", b =>
                 {
-                    b.HasOne("AutumnStore.Data.Model.Category", "category")
+                    b.HasOne("AutumnStore.Data.Model.Category", "Category")
                         .WithMany()
-                        .HasForeignKey("categoryId");
+                        .HasForeignKey("CategoryId");
                 });
 #pragma warning restore 612, 618
         }
