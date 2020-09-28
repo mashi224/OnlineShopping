@@ -42,7 +42,7 @@ namespace AutumnStore.Business
                 return orderHistory;
             }
             catch (Exception)
-            {
+            { 
                 _unitOfWork.Rollback();
                 return null;
             }
