@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace AutumnStore.Entity
@@ -34,5 +35,6 @@ namespace AutumnStore.Entity
         public string Password { get; set; }
 
         public DateTime RegisteredDate { get; set; }
+        public IEnumerable<object> Count { get; set; }
     }
 }

@@ -2,6 +2,7 @@
 using AutumnStore.Data.Repository.Interfaces;
 using AutumnStore.Data.UnitOfWork;
 using AutumnStore.Entity;
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -16,9 +17,18 @@ namespace AutumnStore.Business
             _unitOfWork = unitOfWork;
         }
 
-        public async Task<IEnumerable<CategoryDto>> GetCategories()
+        //public async Task<IEnumerable<CategoryDto>> GetCategories()
+        public async Task<List<CategoryDto>> GetCategories()
         {
-            return await _unitOfWork.CategoryRepository.GetCategories();
+                var categoryFromRepo = await _unitOfWork.CategoryRepository.GetCategories();
+
+                if (categoryFromRepo == null)
+                {
+                    throw new ArgumentNullException();
+                }
+
+                return categoryFromRepo;
+
         }
     }
 }

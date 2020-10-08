@@ -10,7 +10,7 @@ using System.Linq;
 namespace AutumnStore.Test.Business
 {
     [TestClass]
-    public class ProductManagementTest
+    public class MSTEST_ProductManagementTest
     {
         Mock<IUnitOfWork> _unitOfWorkMock;
         private ProductDto productDto;

@@ -1,0 +1,14 @@
+2020-09-30 11:50:48.419 +05:30 [WRN] No type was specified for the decimal column 'OrderTotal' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-30 11:50:48.499 +05:30 [WRN] No type was specified for the decimal column 'ProductPrice' on entity type 'OrderProduct'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-30 11:50:48.499 +05:30 [WRN] No type was specified for the decimal column 'ProductPrice' on entity type 'Products'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-30 11:50:50.398 +05:30 [INF] Get categories completed.
+2020-09-30 11:50:50.433 +05:30 [INF] HTTP GET /api/category responded 200 in 3298.8405 ms
+2020-09-30 11:51:25.302 +05:30 [INF] HTTP GET /api/product/ responded 404 in 3.6731 ms
+2020-09-30 11:51:54.000 +05:30 [INF] HTTP GET /api/product/100 responded 200 in 475.8133 ms
+2020-09-30 15:41:29.914 +05:30 [INF] HTTP POST /api/register responded 404 in 54.2955 ms
+2020-09-30 15:45:23.312 +05:30 [INF] HTTP POST /api/register responded 404 in 3.1629 ms
+2020-09-30 15:46:20.481 +05:30 [INF] HTTP POST /api/register responded 404 in 4.2905 ms
+2020-09-30 15:47:37.355 +05:30 [INF] HTTP OPTIONS /api/auth/register responded 204 in 56.2507 ms
+2020-09-30 15:47:39.810 +05:30 [INF] HTTP POST /api/auth/register responded 201 in 2450.0733 ms
+2020-09-30 15:49:21.164 +05:30 [INF] HTTP POST /api/auth/register responded 400 in 54.3789 ms
+2020-09-30 15:49:45.911 +05:30 [INF] HTTP POST /api/auth/register responded 400 in 44.9114 ms

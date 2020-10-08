@@ -702,3 +702,26 @@ Error Number:207,State:1,Class:16
 2020-09-28 13:48:32.606 +05:30 [INF] HTTP GET /api/payment/billingUser/16 responded 200 in 244.4612 ms
 2020-09-28 13:48:50.122 +05:30 [INF] HTTP OPTIONS /api/payment/completePayment responded 204 in 1.1868 ms
 2020-09-28 13:49:09.373 +05:30 [INF] HTTP POST /api/payment/completePayment responded 200 in 19236.5308 ms
+2020-09-28 14:03:31.705 +05:30 [INF] HTTP OPTIONS /api/payment/billingUser/16 responded 204 in 79.1873 ms
+2020-09-28 14:03:33.143 +05:30 [INF] HTTP OPTIONS /api/payment/completePayment responded 204 in 1.3225 ms
+2020-09-28 14:03:33.346 +05:30 [INF] HTTP POST /api/payment/completePayment responded 400 in 198.3216 ms
+2020-09-28 14:03:34.579 +05:30 [WRN] No type was specified for the decimal column 'OrderTotal' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-28 14:03:34.587 +05:30 [WRN] No type was specified for the decimal column 'ProductPrice' on entity type 'OrderProduct'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-28 14:03:34.587 +05:30 [WRN] No type was specified for the decimal column 'ProductPrice' on entity type 'Products'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-09-28 14:03:36.014 +05:30 [INF] Get existing user details completed
+2020-09-28 14:03:36.038 +05:30 [INF] HTTP GET /api/payment/billingUser/16 responded 200 in 4202.9041 ms
+2020-09-28 14:03:40.001 +05:30 [INF] HTTP OPTIONS /api/payment/completePayment responded 204 in 3.5266 ms
+2020-09-28 14:03:47.370 +05:30 [INF] HTTP POST /api/payment/completePayment responded 200 in 7360.4060 ms
+2020-09-28 14:04:08.501 +05:30 [INF] HTTP OPTIONS /api/category responded 204 in 0.6275 ms
+2020-09-28 14:04:08.636 +05:30 [INF] Get categories completed.
+2020-09-28 14:04:08.643 +05:30 [INF] HTTP GET /api/category responded 200 in 115.6985 ms
+2020-09-28 14:04:11.328 +05:30 [INF] HTTP OPTIONS /api/category responded 204 in 4.2661 ms
+2020-09-28 14:04:11.360 +05:30 [INF] Get categories completed.
+2020-09-28 14:04:11.362 +05:30 [INF] HTTP GET /api/category responded 200 in 24.6237 ms
+2020-09-28 14:04:12.539 +05:30 [INF] HTTP OPTIONS /api/product/3 responded 204 in 0.5579 ms
+2020-09-28 14:04:12.692 +05:30 [INF] HTTP GET /api/product/3 responded 200 in 147.2456 ms
+2020-09-28 14:04:32.938 +05:30 [INF] HTTP OPTIONS /api/payment/billingUser/16 responded 204 in 1.8374 ms
+2020-09-28 14:04:32.973 +05:30 [INF] Get existing user details completed
+2020-09-28 14:04:32.975 +05:30 [INF] HTTP GET /api/payment/billingUser/16 responded 200 in 31.8991 ms
+2020-09-28 14:04:41.685 +05:30 [INF] HTTP OPTIONS /api/payment/completePayment responded 204 in 0.5103 ms
+2020-09-28 14:04:46.387 +05:30 [INF] HTTP POST /api/payment/completePayment responded 200 in 4697.1842 ms

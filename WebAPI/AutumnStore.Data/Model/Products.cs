@@ -11,5 +11,6 @@ namespace AutumnStore.Data.Model
         public string ProductDesc { get; set; }
         public decimal ProductPrice { get; set; }
         public Category Category { get; set; }
+        public int CategoryId { get; set; }
     }
 }

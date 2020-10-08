@@ -19,10 +19,12 @@ namespace AutumnStore.Data
             _mapper = mapper;
         }
 
-        public async Task<IEnumerable<CategoryDto>> GetCategories()
+        //public async Task<IEnumerable<CategoryDto>> GetCategories()
+        public async Task<List<CategoryDto>> GetCategories()
         {
-            var categories = await _context.Category.ToListAsync(); 
-            return _mapper.Map<IEnumerable<CategoryDto>>(categories);
+            var categories = await _context.Category.ToListAsync();
+            //return _mapper.Map<IEnumerable<CategoryDto>>(categories);
+            return _mapper.Map<List<CategoryDto>>(categories);
         }
     }
 }

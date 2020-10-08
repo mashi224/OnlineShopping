@@ -6,6 +6,7 @@ namespace AutumnStore.Business.Interfaces
 {
     public interface ICategoryManagement
     {
-        Task<IEnumerable<CategoryDto>> GetCategories();
+        //Task<IEnumerable<CategoryDto>> GetCategories();
+        Task<List<CategoryDto>> GetCategories();
     }
 }

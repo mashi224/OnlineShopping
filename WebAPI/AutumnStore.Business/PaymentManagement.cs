@@ -26,7 +26,14 @@ namespace AutumnStore.Business
 
         public async Task<UserForRegisterDto> GetBillingUser(int userId)
         {
-            return await _unitOfWork.PaymentRepository.GetBillingUser(userId);
+            var billingUser = await _unitOfWork.PaymentRepository.GetBillingUser(userId);
+
+            if (billingUser == null)
+            {
+                throw new ArgumentNullException();
+            }
+
+            return billingUser;
         }
 
         public async Task<IEnumerable<OrderDetailsDto>> CompletePayment(OrderDto orderDto)
@@ -41,14 +48,16 @@ namespace AutumnStore.Business
 
                 return orderHistory;
             }
-            catch (Exception)
+            catch (Exception ex)
             { 
                 _unitOfWork.Rollback();
+                //NullReferenceException argEx = new NullReferenceException("Error: ", ex);
+                //throw argEx;
                 return null;
             }
         }
 
-        private async Task<IEnumerable<OrderDetailsDto>> SendEmailData(OrderDto orderDto)
+        public async Task<IEnumerable<OrderDetailsDto>> SendEmailData(OrderDto orderDto)
         {
             UserForEmailDto userForEmailDto = await _unitOfWork.PaymentRepository.UserDetailsForEmail(orderDto);
             IEnumerable<OrderDetailsDto> orderDetailsDto = _unitOfWork.PaymentRepository.OrderHistoryData(orderDto);

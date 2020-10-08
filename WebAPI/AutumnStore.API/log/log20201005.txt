@@ -1,0 +1,269 @@
+2020-10-05 11:15:42.958 +05:30 [WRN] No type was specified for the decimal column 'OrderTotal' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-10-05 11:15:43.058 +05:30 [WRN] No type was specified for the decimal column 'ProductPrice' on entity type 'OrderProduct'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-10-05 11:15:43.060 +05:30 [WRN] No type was specified for the decimal column 'ProductPrice' on entity type 'Products'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-10-05 11:15:46.285 +05:30 [INF] HTTP POST /api/payment/completePayment responded 400 in 4851.6288 ms
+2020-10-05 11:19:23.071 +05:30 [WRN] No type was specified for the decimal column 'OrderTotal' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-10-05 11:19:23.162 +05:30 [WRN] No type was specified for the decimal column 'ProductPrice' on entity type 'OrderProduct'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-10-05 11:19:23.163 +05:30 [WRN] No type was specified for the decimal column 'ProductPrice' on entity type 'Products'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-10-05 11:19:26.262 +05:30 [ERR] HTTP POST /api/payment/completePayment responded 500 in 5035.8730 ms
+System.Exception: null
+   at AutumnStore.Business.PaymentManagement.CompletePayment(OrderDto orderDto) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\AutumnStore.Business\PaymentManagement.cs:line 54
+   at AutumnStore.Controller.PaymentController.CompletePayment(OrderDto orderDto) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\AutumnStore.Controller\PaymentController.cs:line 44
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2020-10-05 11:19:26.352 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: null
+   at AutumnStore.Business.PaymentManagement.CompletePayment(OrderDto orderDto) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\AutumnStore.Business\PaymentManagement.cs:line 54
+   at AutumnStore.Controller.PaymentController.CompletePayment(OrderDto orderDto) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\AutumnStore.Controller\PaymentController.cs:line 44
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-10-05 11:54:20.769 +05:30 [INF] HTTP POST /api/payment/completePayment responded 415 in 212.4164 ms
+2020-10-05 11:55:48.067 +05:30 [ERR] HTTP POST /api/payment/completePayment responded 500 in 1593.6154 ms
+System.Exception: null
+   at AutumnStore.Business.PaymentManagement.CompletePayment(OrderDto orderDto) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\AutumnStore.Business\PaymentManagement.cs:line 54
+   at AutumnStore.Controller.PaymentController.CompletePayment(OrderDto orderDto) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\AutumnStore.Controller\PaymentController.cs:line 44
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2020-10-05 11:55:48.079 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: null
+   at AutumnStore.Business.PaymentManagement.CompletePayment(OrderDto orderDto) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\AutumnStore.Business\PaymentManagement.cs:line 54
+   at AutumnStore.Controller.PaymentController.CompletePayment(OrderDto orderDto) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\AutumnStore.Controller\PaymentController.cs:line 44
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-10-05 11:55:56.146 +05:30 [INF] HTTP POST /api/payment/completePayment responded 400 in 30.2949 ms
+2020-10-05 11:58:44.579 +05:30 [INF] HTTP POST /api/payment/completePayment responded 415 in 21.9467 ms
+2020-10-05 17:09:54.482 +05:30 [WRN] No type was specified for the decimal column 'OrderTotal' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-10-05 17:09:54.615 +05:30 [WRN] No type was specified for the decimal column 'ProductPrice' on entity type 'OrderProduct'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-10-05 17:09:54.615 +05:30 [WRN] No type was specified for the decimal column 'ProductPrice' on entity type 'Products'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-10-05 17:10:02.823 +05:30 [INF] HTTP POST /api/payment/completePayment responded 400 in 10335.9554 ms
+2020-10-05 17:10:23.683 +05:30 [INF] HTTP POST /api/payment/completePayment responded 400 in 3297.6236 ms
+2020-10-05 17:18:50.718 +05:30 [INF] HTTP POST /api/payment/completePayment responded 400 in 355447.7652 ms
+2020-10-05 17:21:52.021 +05:30 [INF] HTTP POST /api/payment/completePayment responded 400 in 177552.5971 ms
+2020-10-05 17:23:23.915 +05:30 [INF] HTTP POST /api/payment/completePayment responded 400 in 88200.6930 ms
+2020-10-05 17:33:05.423 +05:30 [WRN] No type was specified for the decimal column 'OrderTotal' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-10-05 17:33:05.529 +05:30 [WRN] No type was specified for the decimal column 'ProductPrice' on entity type 'OrderProduct'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-10-05 17:33:05.529 +05:30 [WRN] No type was specified for the decimal column 'ProductPrice' on entity type 'Products'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-10-05 17:35:15.214 +05:30 [ERR] HTTP POST /api/payment/completePayment responded 500 in 136765.4151 ms
+System.NullReferenceException: Error: 
+ ---> MailKit.Net.Smtp.SmtpCommandException: 5.1.3 The recipient address <agrhrareg> is not a valid RFC-5321 address. g21sm12476941pfh.30 - gsmtp
+   at MailKit.Net.Smtp.SmtpClient.OnRecipientNotAccepted(MimeMessage message, MailboxAddress mailbox, SmtpResponse response)
+   at MailKit.Net.Smtp.SmtpClient.ProcessRcptToResponse(MimeMessage message, MailboxAddress mailbox, SmtpResponse response)
+   at MailKit.Net.Smtp.SmtpClient.FlushCommandQueueAsync(MimeMessage message, MailboxAddress sender, IList`1 recipients, Boolean doAsync, CancellationToken cancellationToken)
+   at MailKit.Net.Smtp.SmtpClient.SendAsync(FormatOptions options, MimeMessage message, MailboxAddress sender, IList`1 recipients, Boolean doAsync, CancellationToken cancellationToken, ITransferProgress progress)
+   at MailKit.Net.Smtp.SmtpClient.SendAsync(FormatOptions options, MimeMessage message, MailboxAddress sender, IList`1 recipients, Boolean doAsync, CancellationToken cancellationToken, ITransferProgress progress)
+   at EmailService.EmailSender.SendAsync(MimeMessage emailMessage) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\EmailService\EmailSender.cs:line 118
+   at EmailService.EmailSender.SendAsync(MimeMessage emailMessage) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\EmailService\EmailSender.cs:line 128
+   at EmailService.EmailSender.SendEmailAsync(Message message) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\EmailService\EmailSender.cs:line 35
+   at AutumnStore.Business.PaymentManagement.SendEmailData(OrderDto orderDto) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\AutumnStore.Business\PaymentManagement.cs:line 75
+   at AutumnStore.Business.PaymentManagement.CompletePayment(OrderDto orderDto) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\AutumnStore.Business\PaymentManagement.cs:line 47
+   --- End of inner exception stack trace ---
+   at AutumnStore.Business.PaymentManagement.CompletePayment(OrderDto orderDto) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\AutumnStore.Business\PaymentManagement.cs:line 55
+   at AutumnStore.Controller.PaymentController.CompletePayment(OrderDto orderDto) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\AutumnStore.Controller\PaymentController.cs:line 44
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2020-10-05 17:35:15.450 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Error: 
+ ---> MailKit.Net.Smtp.SmtpCommandException: 5.1.3 The recipient address <agrhrareg> is not a valid RFC-5321 address. g21sm12476941pfh.30 - gsmtp
+   at MailKit.Net.Smtp.SmtpClient.OnRecipientNotAccepted(MimeMessage message, MailboxAddress mailbox, SmtpResponse response)
+   at MailKit.Net.Smtp.SmtpClient.ProcessRcptToResponse(MimeMessage message, MailboxAddress mailbox, SmtpResponse response)
+   at MailKit.Net.Smtp.SmtpClient.FlushCommandQueueAsync(MimeMessage message, MailboxAddress sender, IList`1 recipients, Boolean doAsync, CancellationToken cancellationToken)
+   at MailKit.Net.Smtp.SmtpClient.SendAsync(FormatOptions options, MimeMessage message, MailboxAddress sender, IList`1 recipients, Boolean doAsync, CancellationToken cancellationToken, ITransferProgress progress)
+   at MailKit.Net.Smtp.SmtpClient.SendAsync(FormatOptions options, MimeMessage message, MailboxAddress sender, IList`1 recipients, Boolean doAsync, CancellationToken cancellationToken, ITransferProgress progress)
+   at EmailService.EmailSender.SendAsync(MimeMessage emailMessage) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\EmailService\EmailSender.cs:line 118
+   at EmailService.EmailSender.SendAsync(MimeMessage emailMessage) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\EmailService\EmailSender.cs:line 128
+   at EmailService.EmailSender.SendEmailAsync(Message message) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\EmailService\EmailSender.cs:line 35
+   at AutumnStore.Business.PaymentManagement.SendEmailData(OrderDto orderDto) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\AutumnStore.Business\PaymentManagement.cs:line 75
+   at AutumnStore.Business.PaymentManagement.CompletePayment(OrderDto orderDto) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\AutumnStore.Business\PaymentManagement.cs:line 47
+   --- End of inner exception stack trace ---
+   at AutumnStore.Business.PaymentManagement.CompletePayment(OrderDto orderDto) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\AutumnStore.Business\PaymentManagement.cs:line 55
+   at AutumnStore.Controller.PaymentController.CompletePayment(OrderDto orderDto) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\AutumnStore.Controller\PaymentController.cs:line 44
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-10-05 18:11:47.406 +05:30 [ERR] HTTP POST /api/payment/completePayment responded 500 in 22819.9234 ms
+System.NullReferenceException: Error: 
+ ---> MailKit.Net.Smtp.SmtpCommandException: 5.1.3 The recipient address <agrhrareg> is not a valid RFC-5321 address. q5sm12700195pfb.184 - gsmtp
+   at MailKit.Net.Smtp.SmtpClient.OnRecipientNotAccepted(MimeMessage message, MailboxAddress mailbox, SmtpResponse response)
+   at MailKit.Net.Smtp.SmtpClient.ProcessRcptToResponse(MimeMessage message, MailboxAddress mailbox, SmtpResponse response)
+   at MailKit.Net.Smtp.SmtpClient.FlushCommandQueueAsync(MimeMessage message, MailboxAddress sender, IList`1 recipients, Boolean doAsync, CancellationToken cancellationToken)
+   at MailKit.Net.Smtp.SmtpClient.SendAsync(FormatOptions options, MimeMessage message, MailboxAddress sender, IList`1 recipients, Boolean doAsync, CancellationToken cancellationToken, ITransferProgress progress)
+   at MailKit.Net.Smtp.SmtpClient.SendAsync(FormatOptions options, MimeMessage message, MailboxAddress sender, IList`1 recipients, Boolean doAsync, CancellationToken cancellationToken, ITransferProgress progress)
+   at EmailService.EmailSender.SendAsync(MimeMessage emailMessage) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\EmailService\EmailSender.cs:line 118
+   at EmailService.EmailSender.SendAsync(MimeMessage emailMessage) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\EmailService\EmailSender.cs:line 128
+   at EmailService.EmailSender.SendEmailAsync(Message message) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\EmailService\EmailSender.cs:line 35
+   at AutumnStore.Business.PaymentManagement.SendEmailData(OrderDto orderDto) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\AutumnStore.Business\PaymentManagement.cs:line 75
+   at AutumnStore.Business.PaymentManagement.CompletePayment(OrderDto orderDto) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\AutumnStore.Business\PaymentManagement.cs:line 47
+   --- End of inner exception stack trace ---
+   at AutumnStore.Business.PaymentManagement.CompletePayment(OrderDto orderDto) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\AutumnStore.Business\PaymentManagement.cs:line 55
+   at AutumnStore.Controller.PaymentController.CompletePayment(OrderDto orderDto) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\AutumnStore.Controller\PaymentController.cs:line 44
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2020-10-05 18:11:47.426 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Error: 
+ ---> MailKit.Net.Smtp.SmtpCommandException: 5.1.3 The recipient address <agrhrareg> is not a valid RFC-5321 address. q5sm12700195pfb.184 - gsmtp
+   at MailKit.Net.Smtp.SmtpClient.OnRecipientNotAccepted(MimeMessage message, MailboxAddress mailbox, SmtpResponse response)
+   at MailKit.Net.Smtp.SmtpClient.ProcessRcptToResponse(MimeMessage message, MailboxAddress mailbox, SmtpResponse response)
+   at MailKit.Net.Smtp.SmtpClient.FlushCommandQueueAsync(MimeMessage message, MailboxAddress sender, IList`1 recipients, Boolean doAsync, CancellationToken cancellationToken)
+   at MailKit.Net.Smtp.SmtpClient.SendAsync(FormatOptions options, MimeMessage message, MailboxAddress sender, IList`1 recipients, Boolean doAsync, CancellationToken cancellationToken, ITransferProgress progress)
+   at MailKit.Net.Smtp.SmtpClient.SendAsync(FormatOptions options, MimeMessage message, MailboxAddress sender, IList`1 recipients, Boolean doAsync, CancellationToken cancellationToken, ITransferProgress progress)
+   at EmailService.EmailSender.SendAsync(MimeMessage emailMessage) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\EmailService\EmailSender.cs:line 118
+   at EmailService.EmailSender.SendAsync(MimeMessage emailMessage) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\EmailService\EmailSender.cs:line 128
+   at EmailService.EmailSender.SendEmailAsync(Message message) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\EmailService\EmailSender.cs:line 35
+   at AutumnStore.Business.PaymentManagement.SendEmailData(OrderDto orderDto) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\AutumnStore.Business\PaymentManagement.cs:line 75
+   at AutumnStore.Business.PaymentManagement.CompletePayment(OrderDto orderDto) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\AutumnStore.Business\PaymentManagement.cs:line 47
+   --- End of inner exception stack trace ---
+   at AutumnStore.Business.PaymentManagement.CompletePayment(OrderDto orderDto) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\AutumnStore.Business\PaymentManagement.cs:line 55
+   at AutumnStore.Controller.PaymentController.CompletePayment(OrderDto orderDto) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\AutumnStore.Controller\PaymentController.cs:line 44
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-10-05 18:14:57.477 +05:30 [ERR] HTTP POST /api/payment/completePayment responded 500 in 157601.4439 ms
+System.NullReferenceException: Error: 
+ ---> MailKit.Net.Smtp.SmtpCommandException: 5.1.3 The recipient address <agrhrareg> is not a valid RFC-5321 address. m11sm11376638pfk.57 - gsmtp
+   at MailKit.Net.Smtp.SmtpClient.OnRecipientNotAccepted(MimeMessage message, MailboxAddress mailbox, SmtpResponse response)
+   at MailKit.Net.Smtp.SmtpClient.ProcessRcptToResponse(MimeMessage message, MailboxAddress mailbox, SmtpResponse response)
+   at MailKit.Net.Smtp.SmtpClient.FlushCommandQueueAsync(MimeMessage message, MailboxAddress sender, IList`1 recipients, Boolean doAsync, CancellationToken cancellationToken)
+   at MailKit.Net.Smtp.SmtpClient.SendAsync(FormatOptions options, MimeMessage message, MailboxAddress sender, IList`1 recipients, Boolean doAsync, CancellationToken cancellationToken, ITransferProgress progress)
+   at MailKit.Net.Smtp.SmtpClient.SendAsync(FormatOptions options, MimeMessage message, MailboxAddress sender, IList`1 recipients, Boolean doAsync, CancellationToken cancellationToken, ITransferProgress progress)
+   at EmailService.EmailSender.SendAsync(MimeMessage emailMessage) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\EmailService\EmailSender.cs:line 118
+   at EmailService.EmailSender.SendAsync(MimeMessage emailMessage) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\EmailService\EmailSender.cs:line 128
+   at EmailService.EmailSender.SendEmailAsync(Message message) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\EmailService\EmailSender.cs:line 35
+   at AutumnStore.Business.PaymentManagement.SendEmailData(OrderDto orderDto) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\AutumnStore.Business\PaymentManagement.cs:line 75
+   at AutumnStore.Business.PaymentManagement.CompletePayment(OrderDto orderDto) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\AutumnStore.Business\PaymentManagement.cs:line 47
+   --- End of inner exception stack trace ---
+   at AutumnStore.Business.PaymentManagement.CompletePayment(OrderDto orderDto) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\AutumnStore.Business\PaymentManagement.cs:line 55
+   at AutumnStore.Controller.PaymentController.CompletePayment(OrderDto orderDto) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\AutumnStore.Controller\PaymentController.cs:line 44
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2020-10-05 18:14:57.481 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Error: 
+ ---> MailKit.Net.Smtp.SmtpCommandException: 5.1.3 The recipient address <agrhrareg> is not a valid RFC-5321 address. m11sm11376638pfk.57 - gsmtp
+   at MailKit.Net.Smtp.SmtpClient.OnRecipientNotAccepted(MimeMessage message, MailboxAddress mailbox, SmtpResponse response)
+   at MailKit.Net.Smtp.SmtpClient.ProcessRcptToResponse(MimeMessage message, MailboxAddress mailbox, SmtpResponse response)
+   at MailKit.Net.Smtp.SmtpClient.FlushCommandQueueAsync(MimeMessage message, MailboxAddress sender, IList`1 recipients, Boolean doAsync, CancellationToken cancellationToken)
+   at MailKit.Net.Smtp.SmtpClient.SendAsync(FormatOptions options, MimeMessage message, MailboxAddress sender, IList`1 recipients, Boolean doAsync, CancellationToken cancellationToken, ITransferProgress progress)
+   at MailKit.Net.Smtp.SmtpClient.SendAsync(FormatOptions options, MimeMessage message, MailboxAddress sender, IList`1 recipients, Boolean doAsync, CancellationToken cancellationToken, ITransferProgress progress)
+   at EmailService.EmailSender.SendAsync(MimeMessage emailMessage) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\EmailService\EmailSender.cs:line 118
+   at EmailService.EmailSender.SendAsync(MimeMessage emailMessage) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\EmailService\EmailSender.cs:line 128
+   at EmailService.EmailSender.SendEmailAsync(Message message) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\EmailService\EmailSender.cs:line 35
+   at AutumnStore.Business.PaymentManagement.SendEmailData(OrderDto orderDto) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\AutumnStore.Business\PaymentManagement.cs:line 75
+   at AutumnStore.Business.PaymentManagement.CompletePayment(OrderDto orderDto) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\AutumnStore.Business\PaymentManagement.cs:line 47
+   --- End of inner exception stack trace ---
+   at AutumnStore.Business.PaymentManagement.CompletePayment(OrderDto orderDto) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\AutumnStore.Business\PaymentManagement.cs:line 55
+   at AutumnStore.Controller.PaymentController.CompletePayment(OrderDto orderDto) in C:\Users\Thamasha\GitHub\OnlineShopping\WebAPI\AutumnStore.Controller\PaymentController.cs:line 44
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-10-05 18:15:57.912 +05:30 [INF] HTTP POST /api/payment/completePayment responded 200 in 26976.2689 ms

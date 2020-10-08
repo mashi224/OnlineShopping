@@ -6,6 +6,7 @@ namespace AutumnStore.Data.Repository.Interfaces
 {
     public interface ICategoryRepository
     {
-        Task<IEnumerable<CategoryDto>> GetCategories();
+        //Task<IEnumerable<CategoryDto>> GetCategories();
+        Task<List<CategoryDto>> GetCategories();
     }
 }

@@ -22,7 +22,6 @@ namespace AutumnStore.Data.Helpers
                 .ForMember(dest => dest.ProductQty, opt => opt.MapFrom(src => src.Qty))
                 .ForMember(dest => dest.ProductPrice, opt => opt.MapFrom(src => src.Price));
 
-
             CreateMap<OrderedProductsDto, OrderProduct>()
                 .ForMember(dest => dest.ProductQty, opt => opt.MapFrom(src => src.Qty))
                 .ForMember(dest => dest.ProductPrice, opt => opt.MapFrom(src => src.Price)).ReverseMap();

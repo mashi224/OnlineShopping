@@ -2,6 +2,7 @@
 using AutumnStore.Data.Repository.Interfaces;
 using AutumnStore.Data.UnitOfWork;
 using AutumnStore.Entity;
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -18,9 +19,14 @@ namespace AutumnStore.Business
 
         public async Task<IEnumerable<ProductDto>> GetProducts(int categoryId)
         {
-            //var products = await _repo.GetProducts(id);
-            //return products;
-            return await _unitOfWork.ProductRepository.GetProducts(categoryId);
+                var productsFromRepo = await _unitOfWork.ProductRepository.GetProducts(categoryId);
+
+                if (productsFromRepo == null)
+                {
+                    throw new NullReferenceException();
+                }
+
+                return productsFromRepo;
         }
     }
 }
