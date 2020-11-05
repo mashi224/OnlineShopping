@@ -29,13 +29,14 @@ import { CartItemComponent } from './shopping-cart/cart-item/cart-item.component
 import { CheckoutComponent } from './checkout/checkout.component';
 import { PaymentComponent } from './payment/payment.component';
 import { OrderHistoryComponent } from './order-history/order-history.component';
+import { ErrorInterceptorProvider } from './_services/error.interceptor';
 
 export function tokenGetter() {
    return localStorage.getItem('token');
 }
 
 @NgModule({
-   declarations: [	
+   declarations: [
       AppComponent,
       CategoryComponent,
       ProductComponent,
@@ -76,7 +77,8 @@ export function tokenGetter() {
    ],
    providers: [
       ProductService,
-      AuthService
+      AuthService,
+      ErrorInterceptorProvider
    ],
    bootstrap: [
       AppComponent

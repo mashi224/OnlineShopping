@@ -25,6 +25,7 @@ export  class  RegistrationComponent implements OnInit {
       this.cancelRegister.emit(false);
     }, error => {
       this.alertify.error(error);
+      console.log(error);
     });
   }
 
