@@ -5931,11 +5931,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Thamasha\\GitHub\\OnlineShopping\\WebAPI\\AutumnStore.Entity\\AutumnStore.Entity.csproj",
+      "projectUniqueName": "C:\\Users\\Thamasha\\GitHub\\OnlineShopping_Clone\\OnlineShopping\\WebAPI\\AutumnStore.Entity\\AutumnStore.Entity.csproj",
       "projectName": "AutumnStore.Entity",
-      "projectPath": "C:\\Users\\Thamasha\\GitHub\\OnlineShopping\\WebAPI\\AutumnStore.Entity\\AutumnStore.Entity.csproj",
+      "projectPath": "C:\\Users\\Thamasha\\GitHub\\OnlineShopping_Clone\\OnlineShopping\\WebAPI\\AutumnStore.Entity\\AutumnStore.Entity.csproj",
       "packagesPath": "C:\\Users\\Thamasha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Thamasha\\GitHub\\OnlineShopping\\WebAPI\\AutumnStore.Entity\\obj\\",
+      "outputPath": "C:\\Users\\Thamasha\\GitHub\\OnlineShopping_Clone\\OnlineShopping\\WebAPI\\AutumnStore.Entity\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Thamasha\\AppData\\Roaming\\NuGet\\NuGet.Config",

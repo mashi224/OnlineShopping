@@ -11,3 +11,18 @@
 2020-11-05 12:54:28.067 +05:30 [INF] HTTP POST /api/auth/register responded 400 in 30.4380 ms
 2020-11-05 12:54:38.953 +05:30 [INF] HTTP OPTIONS /api/auth/register responded 204 in 0.2983 ms
 2020-11-05 12:54:38.996 +05:30 [INF] HTTP POST /api/auth/register responded 400 in 37.0250 ms
+2020-11-05 13:18:39.396 +05:30 [WRN] No type was specified for the decimal column 'OrderTotal' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-11-05 13:18:39.619 +05:30 [WRN] No type was specified for the decimal column 'ProductPrice' on entity type 'OrderProduct'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-11-05 13:18:39.620 +05:30 [WRN] No type was specified for the decimal column 'ProductPrice' on entity type 'Products'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-11-05 13:18:41.993 +05:30 [INF] Get categories completed.
+2020-11-05 13:18:42.019 +05:30 [INF] HTTP GET /api/category responded 200 in 4564.2935 ms
+2020-11-05 13:18:47.918 +05:30 [INF] HTTP OPTIONS /api/auth/login responded 204 in 4.4845 ms
+2020-11-05 13:18:48.671 +05:30 [INF] HTTP POST /api/auth/login responded 200 in 721.3644 ms
+2020-11-05 13:18:56.212 +05:30 [INF] HTTP OPTIONS /api/auth/login responded 204 in 0.3283 ms
+2020-11-05 13:18:56.244 +05:30 [INF] HTTP POST /api/auth/login responded 401 in 28.9836 ms
+2020-11-05 13:19:00.451 +05:30 [INF] Get categories completed.
+2020-11-05 13:19:00.452 +05:30 [INF] HTTP GET /api/category responded 200 in 35.1514 ms
+2020-11-05 13:19:21.936 +05:30 [INF] HTTP OPTIONS /api/auth/register responded 204 in 0.2037 ms
+2020-11-05 13:19:21.962 +05:30 [INF] HTTP POST /api/auth/register responded 400 in 24.2155 ms
+2020-11-05 13:19:28.278 +05:30 [INF] HTTP OPTIONS /api/auth/register responded 204 in 0.3321 ms
+2020-11-05 13:19:28.327 +05:30 [INF] HTTP POST /api/auth/register responded 400 in 46.4698 ms

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GuhkD0lxkmVlzy1Mjp73jeXdNf9DoLRAbImPqV8FOFQXeuQu9ZS2zRGLoLsJ0aOQd0NRkA0uLXRmq5Vy9LbzpA==",
+  "dgSpecHash": "bw2Hxy4s+4sTQJWPnaJ+EYJj6Fb0YFVlIPMZFO3kUzOtMOh5wsGA1xxsq38l2KxpVr0J8EHqOGMvTJDFw5BhHg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Thamasha\\GitHub\\OnlineShopping\\WebAPI\\AutumnStore.Entity\\AutumnStore.Entity.csproj",
+  "projectFilePath": "C:\\Users\\Thamasha\\GitHub\\OnlineShopping_Clone\\OnlineShopping\\WebAPI\\AutumnStore.Entity\\AutumnStore.Entity.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Thamasha\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\Thamasha\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

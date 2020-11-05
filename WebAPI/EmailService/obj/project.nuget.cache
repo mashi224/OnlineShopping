@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SCaGymY181ELf2cvZMvuxkjb87y37/QRDvubX+la3ciVfLrRklBZ0U7jHbaV1yRQpK+7IRZt8J/MaFpG+0HPEw==",
+  "dgSpecHash": "4YgJqUWfumMpJEkuAIeTAmM7MQh6HlVolZeA2Q79sKirEkXsGO1l4OQ8sV/uoIB8L4GFbQXX2EcMVdaqE6ZvIw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Thamasha\\GitHub\\OnlineShopping\\WebAPI\\EmailService\\EmailService.csproj",
+  "projectFilePath": "C:\\Users\\Thamasha\\GitHub\\OnlineShopping_Clone\\OnlineShopping\\WebAPI\\EmailService\\EmailService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Thamasha\\.nuget\\packages\\mailkit\\2.6.0\\mailkit.2.6.0.nupkg.sha512",
     "C:\\Users\\Thamasha\\.nuget\\packages\\microsoft.aspnetcore.http.features\\3.1.8\\microsoft.aspnetcore.http.features.3.1.8.nupkg.sha512",

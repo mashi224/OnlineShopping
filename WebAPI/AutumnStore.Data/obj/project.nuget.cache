@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "L9HmPZmbwCK+dTDe0OM7OPqFrdTxSQ0lpESgU0BXuyx4IkYEKS66zqn/VInasDxPI1m8b1CGhPbhMGtubvPNjg==",
+  "dgSpecHash": "Tj/+83+HOvd0uz1UYRbjv/byyJW44rXVDBOUcew5R9HuuwAOTPlZfXyQAGfNoRhs9Ox8sPJpfzXCZ9wtUa6kfQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Thamasha\\GitHub\\OnlineShopping\\WebAPI\\AutumnStore.Data\\AutumnStore.Data.csproj",
+  "projectFilePath": "C:\\Users\\Thamasha\\GitHub\\OnlineShopping_Clone\\OnlineShopping\\WebAPI\\AutumnStore.Data\\AutumnStore.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Thamasha\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\Thamasha\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

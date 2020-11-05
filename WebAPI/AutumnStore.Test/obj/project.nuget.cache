@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1SRnmIDar/e7fChRgOi/+LX98p6lDABdqMSXfipC6AMWpUOtmhj2EdqTPWWw3c+4gugEsB+vsPAjuqCVnPqZng==",
+  "dgSpecHash": "Bpoz9ra3eFZZQrGO7Sj7FKpEMEvUGaUWT1aoC9k0fUsXUgDd6VLnqBlU1RWyww/VsjJQ1mZ3s+ZcJRaPtskyaA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Thamasha\\GitHub\\OnlineShopping\\WebAPI\\AutumnStore.Test\\AutumnStore.Test.csproj",
+  "projectFilePath": "C:\\Users\\Thamasha\\GitHub\\OnlineShopping_Clone\\OnlineShopping\\WebAPI\\AutumnStore.Test\\AutumnStore.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Thamasha\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\Thamasha\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",

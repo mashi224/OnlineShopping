@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7BAHJURWIXYchkiOTMxWoEKbe/Qs9QQzMRhNsOZVy3HDa0fBFeueDnJMFU/fz/kKOxr/Td5aMGcXZ0DRHJYKJg==",
+  "dgSpecHash": "AEMlHQKTln4/6i8bob9ke1q/yJTKB3HHt0ULz6fsLGElEGAUBzbw8gSEa+qAj29XNg29TfE/jp6b++irLVGObg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Thamasha\\GitHub\\OnlineShopping\\WebAPI\\AutumnStore.Business\\AutumnStore.Business.csproj",
+  "projectFilePath": "C:\\Users\\Thamasha\\GitHub\\OnlineShopping_Clone\\OnlineShopping\\WebAPI\\AutumnStore.Business\\AutumnStore.Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Thamasha\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\Thamasha\\.nuget\\packages\\mailkit\\2.6.0\\mailkit.2.6.0.nupkg.sha512",

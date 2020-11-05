@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9aPDpOy1Mupbjr8+BhJQHONGoKSkwu4ptLTE5jGd11NkSltpjWiCJx0ejXcr+fCdY73J6ul27nhP5Qwnz4eyBA==",
+  "dgSpecHash": "60Ozpm9G6R4O4cb5sDs2WXubqhDKY88mHvjk+3lcYo3Tww9jOA4d+YWm/TF7VsQA1Cpf1wdH/7w2lhcN8IHQsQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Thamasha\\GitHub\\OnlineShopping\\WebAPI\\AutumnStore.API\\AutumnStore.API.csproj",
+  "projectFilePath": "C:\\Users\\Thamasha\\GitHub\\OnlineShopping_Clone\\OnlineShopping\\WebAPI\\AutumnStore.API\\AutumnStore.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Thamasha\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\Thamasha\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.0.0\\automapper.extensions.microsoft.dependencyinjection.8.0.0.nupkg.sha512",

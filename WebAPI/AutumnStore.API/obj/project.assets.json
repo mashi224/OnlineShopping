@@ -8683,11 +8683,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Thamasha\\GitHub\\OnlineShopping\\WebAPI\\AutumnStore.API\\AutumnStore.API.csproj",
+      "projectUniqueName": "C:\\Users\\Thamasha\\GitHub\\OnlineShopping_Clone\\OnlineShopping\\WebAPI\\AutumnStore.API\\AutumnStore.API.csproj",
       "projectName": "AutumnStore.API",
-      "projectPath": "C:\\Users\\Thamasha\\GitHub\\OnlineShopping\\WebAPI\\AutumnStore.API\\AutumnStore.API.csproj",
+      "projectPath": "C:\\Users\\Thamasha\\GitHub\\OnlineShopping_Clone\\OnlineShopping\\WebAPI\\AutumnStore.API\\AutumnStore.API.csproj",
       "packagesPath": "C:\\Users\\Thamasha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Thamasha\\GitHub\\OnlineShopping\\WebAPI\\AutumnStore.API\\obj\\",
+      "outputPath": "C:\\Users\\Thamasha\\GitHub\\OnlineShopping_Clone\\OnlineShopping\\WebAPI\\AutumnStore.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Thamasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8703,11 +8703,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Thamasha\\GitHub\\OnlineShopping\\WebAPI\\AutumnStore.Controller\\AutumnStore.Controller.csproj": {
-              "projectPath": "C:\\Users\\Thamasha\\GitHub\\OnlineShopping\\WebAPI\\AutumnStore.Controller\\AutumnStore.Controller.csproj"
+            "C:\\Users\\Thamasha\\GitHub\\OnlineShopping_Clone\\OnlineShopping\\WebAPI\\AutumnStore.Controller\\AutumnStore.Controller.csproj": {
+              "projectPath": "C:\\Users\\Thamasha\\GitHub\\OnlineShopping_Clone\\OnlineShopping\\WebAPI\\AutumnStore.Controller\\AutumnStore.Controller.csproj"
             },
-            "C:\\Users\\Thamasha\\GitHub\\OnlineShopping\\WebAPI\\EmailService\\EmailService.csproj": {
-              "projectPath": "C:\\Users\\Thamasha\\GitHub\\OnlineShopping\\WebAPI\\EmailService\\EmailService.csproj"
+            "C:\\Users\\Thamasha\\GitHub\\OnlineShopping_Clone\\OnlineShopping\\WebAPI\\EmailService\\EmailService.csproj": {
+              "projectPath": "C:\\Users\\Thamasha\\GitHub\\OnlineShopping_Clone\\OnlineShopping\\WebAPI\\EmailService\\EmailService.csproj"
             }
           }
         }

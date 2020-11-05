@@ -10016,11 +10016,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Thamasha\\GitHub\\OnlineShopping\\WebAPI\\AutumnStore.Test\\AutumnStore.Test.csproj",
+      "projectUniqueName": "C:\\Users\\Thamasha\\GitHub\\OnlineShopping_Clone\\OnlineShopping\\WebAPI\\AutumnStore.Test\\AutumnStore.Test.csproj",
       "projectName": "AutumnStore.Test",
-      "projectPath": "C:\\Users\\Thamasha\\GitHub\\OnlineShopping\\WebAPI\\AutumnStore.Test\\AutumnStore.Test.csproj",
+      "projectPath": "C:\\Users\\Thamasha\\GitHub\\OnlineShopping_Clone\\OnlineShopping\\WebAPI\\AutumnStore.Test\\AutumnStore.Test.csproj",
       "packagesPath": "C:\\Users\\Thamasha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Thamasha\\GitHub\\OnlineShopping\\WebAPI\\AutumnStore.Test\\obj\\",
+      "outputPath": "C:\\Users\\Thamasha\\GitHub\\OnlineShopping_Clone\\OnlineShopping\\WebAPI\\AutumnStore.Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Thamasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -10036,17 +10036,17 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Thamasha\\GitHub\\OnlineShopping\\WebAPI\\AutumnStore.Business\\AutumnStore.Business.csproj": {
-              "projectPath": "C:\\Users\\Thamasha\\GitHub\\OnlineShopping\\WebAPI\\AutumnStore.Business\\AutumnStore.Business.csproj"
+            "C:\\Users\\Thamasha\\GitHub\\OnlineShopping_Clone\\OnlineShopping\\WebAPI\\AutumnStore.Business\\AutumnStore.Business.csproj": {
+              "projectPath": "C:\\Users\\Thamasha\\GitHub\\OnlineShopping_Clone\\OnlineShopping\\WebAPI\\AutumnStore.Business\\AutumnStore.Business.csproj"
             },
-            "C:\\Users\\Thamasha\\GitHub\\OnlineShopping\\WebAPI\\AutumnStore.Controller\\AutumnStore.Controller.csproj": {
-              "projectPath": "C:\\Users\\Thamasha\\GitHub\\OnlineShopping\\WebAPI\\AutumnStore.Controller\\AutumnStore.Controller.csproj"
+            "C:\\Users\\Thamasha\\GitHub\\OnlineShopping_Clone\\OnlineShopping\\WebAPI\\AutumnStore.Controller\\AutumnStore.Controller.csproj": {
+              "projectPath": "C:\\Users\\Thamasha\\GitHub\\OnlineShopping_Clone\\OnlineShopping\\WebAPI\\AutumnStore.Controller\\AutumnStore.Controller.csproj"
             },
-            "C:\\Users\\Thamasha\\GitHub\\OnlineShopping\\WebAPI\\AutumnStore.Data\\AutumnStore.Data.csproj": {
-              "projectPath": "C:\\Users\\Thamasha\\GitHub\\OnlineShopping\\WebAPI\\AutumnStore.Data\\AutumnStore.Data.csproj"
+            "C:\\Users\\Thamasha\\GitHub\\OnlineShopping_Clone\\OnlineShopping\\WebAPI\\AutumnStore.Data\\AutumnStore.Data.csproj": {
+              "projectPath": "C:\\Users\\Thamasha\\GitHub\\OnlineShopping_Clone\\OnlineShopping\\WebAPI\\AutumnStore.Data\\AutumnStore.Data.csproj"
             },
-            "C:\\Users\\Thamasha\\GitHub\\OnlineShopping\\WebAPI\\AutumnStore.Entity\\AutumnStore.Entity.csproj": {
-              "projectPath": "C:\\Users\\Thamasha\\GitHub\\OnlineShopping\\WebAPI\\AutumnStore.Entity\\AutumnStore.Entity.csproj"
+            "C:\\Users\\Thamasha\\GitHub\\OnlineShopping_Clone\\OnlineShopping\\WebAPI\\AutumnStore.Entity\\AutumnStore.Entity.csproj": {
+              "projectPath": "C:\\Users\\Thamasha\\GitHub\\OnlineShopping_Clone\\OnlineShopping\\WebAPI\\AutumnStore.Entity\\AutumnStore.Entity.csproj"
             }
           }
         }
